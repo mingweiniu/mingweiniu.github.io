@@ -2,7 +2,7 @@
 ## Wiki
 https://elona.fandom.com/  
 http://elona.wikiwiki.jp/  
-
+https://elona.fandom.com/wiki/Tips  
 
 ## Setting
 
