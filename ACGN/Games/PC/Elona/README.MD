@@ -1,4 +1,8 @@
 
+## Wiki
+https://elona.fandom.com/  
+http://elona.wikiwiki.jp/  
+
 
 ## Setting
 
