@@ -1,8 +1,10 @@
+## webs
+https://forum.gamer.com.tw/C.php?bsn=23017&snA=6  
 
 ## Wiki
 https://elona.fandom.com/  
 http://elona.wikiwiki.jp/  
-https://elona.fandom.com/wiki/Tips  
+
 
 ## Setting
 
