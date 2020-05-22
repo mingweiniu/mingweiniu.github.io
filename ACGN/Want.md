@@ -11,4 +11,4 @@ https://www.goodsmile.info/ja/product/4657/%E3%82%A2%E3%83%BC%E3%82%B7%E3%83%A3+
 https://www.amazon.co.jp/%E3%82%A8%E3%82%B9%E3%82%AB-%E3%83%AD%E3%82%B8%E3%83%BC%E3%81%AE%E3%82%A2%E3%83%88%E3%83%AA%E3%82%A8-%E9%BB%84%E6%98%8F%E3%81%AE%E7%A9%BA%E3%81%AE%E9%8C%AC%E9%87%91%E8%A1%93%E5%A3%AB-8%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%AB%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2-PVC%E8%A3%BD%E5%A1%97%E8%A3%85%E6%B8%88%E5%AE%8C%E6%88%90%E5%93%81/dp/B00PTWS21S  
 
 萊莎  
-https://www.goodsmile.info/ja/product/4657/%E3%82%A2%E3%83%BC%E3%82%B7%E3%83%A3+%E3%82%A2%E3%83%AB%E3%83%88%E3%82%A5%E3%83%BC%E3%83%AB.html  
+https://home.gamer.com.tw/creationDetail.php?sn=4542156  
