@@ -134,13 +134,5 @@ https://wikiwiki.jp/elonaval/
 digital BD  
 https://itunes.apple.com/au/tv-season/puella-magi-madoka-magica-season-1/id648721197  
   
-PVC  
-https://www.amazon.co.jp/ウェーブ-Wave-DT31-ローゼンメイデン-ノンスケールPVC塗装済み完成品）/dp/B000RZJVHQ/ref=pd_sbs_21_2?_encoding=UTF8&psc=1&refRID=WPX8JVPVH271K9G3MH68  
-  
-翠星石  
-https://www.amazon.co.jp/グッドスマイルカンパニー-GOOD-SMILE-COMPANY-8スケールPVC塗装済み完成品/dp/B000K20E54/ref=pd_sbs_21_1?_encoding=UTF8&psc=1&refRID=WPX8JVPVH271K9G3MH68  
-  
-真紅  
-  
 OST  
 https://itunes.apple.com/jp/album/天神乱漫-オリジナル-サウンドトラック/996647994  
