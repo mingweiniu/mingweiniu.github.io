@@ -58,6 +58,10 @@ To Heart(迷宮旅人)
 歡迎來到實力至上主義的教室  
 甘城光輝遊樂園  
 末日時在做什麼  
+光劍星傳  
+羅德斯島戰記  
+烙印勇士  
+廢棄公主  
 迷糊餐廳  
 阿松  
 lanetarian  星之夢  
@@ -163,6 +167,7 @@ riddle joker
 Princess Frontier  
 Castle Fantasia  
 デモニオン  
+俠盜銀河  
 
 https://wikiwiki.jp/elonaval/
 
