@@ -18,6 +18,19 @@
 冰結鏡界的伊甸  
 問題兒童都來自異世界？  
 抽籤勇者  
+噬血狂襲  
+歐菲  
+問題兒童  
+盾勇  
+奴隸魔術  
+打工魔王  
+賢者之孫  
+地下城  
+八男  
+自稱賢者弟子的賢者  
+史萊姆  
+空之境界  
+神不在  
 
 ## Comic
 白聖女與黑牧師  
@@ -40,6 +53,7 @@
 艾莉森  
 
 ## Anime
+戰鬥司書  
 俺物語  
 月色真美  
 D×D 四期  
@@ -176,7 +190,7 @@ Castle Fantasia
 
 https://wikiwiki.jp/elonaval/
 
-## TODO: buy     
+## TODO: buy   
 digital BD  
 https://itunes.apple.com/au/tv-season/puella-magi-madoka-magica-season-1/id648721197  
   
