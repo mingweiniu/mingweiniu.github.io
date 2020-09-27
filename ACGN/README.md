@@ -1,4 +1,13 @@
-# Queue
+# ACGN
+
+購入済み商品一覧 - アダルトPCゲーム音楽配信
+https://dlsoft.dmm.co.jp/music/mylibrary
+
+購入済み商品一覧
+https://dlsoft.dmm.co.jp/mylibrary/
+
+
+## Queue
 
 ## Online Game
 hell diver
@@ -196,10 +205,3 @@ Castle Fantasia
 俠盜銀河  
 
 https://wikiwiki.jp/elonaval/
-
-## TODO: buy   
-digital BD  
-https://itunes.apple.com/au/tv-season/puella-magi-madoka-magica-season-1/id648721197  
-  
-OST  
-https://itunes.apple.com/jp/album/天神乱漫-オリジナル-サウンドトラック/996647994  
