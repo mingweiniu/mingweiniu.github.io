@@ -160,6 +160,7 @@ Witch Trainer
 櫻之詩  
 riddle joker  
 蘭斯  
+星之夢  
 聖火降魔錄  
 召喚夜響曲  
 聖なるかな  
@@ -174,9 +175,15 @@ riddle joker
 聖なるかな  
 永遠のアセリア  
 カタハネ  
+ef - a fairy tale of the two.  
+淑女同萌  
+Fate  
 Princess Frontier  
 Castle Fantasia  
 デモニオン  
 俠盜銀河  
+白刃きらめく恋しらべ  
+絆きらめく恋いろは  
+シキガミ  
 
 https://wikiwiki.jp/elonaval/
