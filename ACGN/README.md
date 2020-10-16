@@ -132,7 +132,37 @@ perosona
 Purple software - アオイトリ
 古墓奇兵  
 汪達與巨像  
-  
+戰場女武神1跟3  
+神諭 原罪2  
+勇者已死  
+螢火蟲日記  
+奧丁領域  
+Magic Scroll Tactics  
+Magicka  
+雙星物語  
+祭物與雪的剎那  
+帽子世界  
+英雄無敵3  
+banner saga  
+ルカと魔法の本  
+暗影之心1&2  
+矮人要塞  
+魔女與百騎兵  
+龍族教義  
+光之子  
+Queen's Wish  
+魔幻歷險  
+幻世錄  
+二之國  
+光明之魂2  
+Ori and the blind forest  
+Dead Cells  
+Child of Light  
+Titan quest  
+Hades  
+Dungeon Siege II  
+八方旅人  
+
 ## RPG  
 妖精劍士f  
 勇者鬥惡龍11  
