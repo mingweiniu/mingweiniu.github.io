@@ -128,7 +128,8 @@ perosona
 真三國無雙8  
 碧血狂殺  
 異塵餘生  
-片羽
+片羽  
+Salt and Sanctuary  
 Purple software - アオイトリ
 古墓奇兵  
 汪達與巨像  
