@@ -115,6 +115,23 @@ perosona
 傳頌之物  
 蟲師  
 
+## Bundles
+* [優先](https://store.steampowered.com/bundle/9063/NekoNyan_Visual_Novel_Collection/)
+* [Little Busters](https://store.steampowered.com/bundle/8809/Little_Busters_Game_and_Soundtrack_Bundle/)
+* [灰色系列](https://store.steampowered.com/bundle/9605/Grisaia_Collection/)
+* [永遠のアセリア](https://store.steampowered.com/bundle/2633/The_Eternity_Sword_Series__Soundtracks/)
+* [黃昏系列](https://store.steampowered.com/bundle/13066/Atelier_Dusk_Trilogy_Deluxe_Pack_____DX/)
+* [D&D](https://store.steampowered.com/bundle/380/The_Infinity_Collection/)
+* [絕冬城之夜](https://store.steampowered.com/bundle/5253/Neverwinter_Nights_Enhanced_Edition_Digital_Deluxe/)
+* [PopCap](https://store.steampowered.com/bundle/1662/PopCap_Party_Pack/)
+* [Runic](https://store.steampowered.com/bundle/4132/Runic_Games_Collection/)
+* [SEGA](https://store.steampowered.com/bundle/13945/SEGA_Mega_Drive_and_Genesis_Classics/)
+* [瘟疫](https://store.steampowered.com/bundle/13986/Plague_Inc_and_Rebel_Inc/)
+* [惡靈古堡](https://store.steampowered.com/bundle/261/Resident_EvilBiohazard_Collectors_Pack/)
+* [逆轉裁判](https://store.steampowered.com/bundle/10232/Phoenix_Wright_Ace_Attorney_Trilogy__Turnabout_Tunes_Bundle__123/)
+* [Tomb Rider](https://store.steampowered.com/bundle/13831/Tomb_Raider_Collection/)
+* [wtf](https://store.steampowered.com/bundle/7694/Kagura_Bundle/)
+
 ## games  
 英雄傳說  
 魔女之泉  
@@ -163,6 +180,7 @@ Titan quest
 Hades  
 Dungeon Siege II  
 八方旅人  
+
 
 ## RPG  
 妖精劍士f  
