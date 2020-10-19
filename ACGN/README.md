@@ -118,6 +118,8 @@ perosona
 ## Bundles
 * [優先](https://store.steampowered.com/bundle/9063/NekoNyan_Visual_Novel_Collection/)
 * [Little Busters](https://store.steampowered.com/bundle/8809/Little_Busters_Game_and_Soundtrack_Bundle/)
+* [工畫堂](https://store.steampowered.com/bundle/5476/Kogado_Collection/)
+* [Clannad](https://store.steampowered.com/bundle/2725/CLANNAD_Bundle/)
 * [灰色系列](https://store.steampowered.com/bundle/9605/Grisaia_Collection/)
 * [永遠のアセリア](https://store.steampowered.com/bundle/2633/The_Eternity_Sword_Series__Soundtracks/)
 * [黃昏系列](https://store.steampowered.com/bundle/13066/Atelier_Dusk_Trilogy_Deluxe_Pack_____DX/)
