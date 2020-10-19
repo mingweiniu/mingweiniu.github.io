@@ -13,9 +13,9 @@
 
 ## 80 rock
 * Mr. big / Eirc Martin  
- 
+  * Hey Man
+  * Bump Ahead
 * Guns N' Roses
-* Hey Man / Bump Ahead
 * Skid Row
 * Aerosmith
 * Scorpions 
