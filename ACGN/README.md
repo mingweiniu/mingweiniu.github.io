@@ -154,7 +154,6 @@ perosona
 碧血狂殺  
 異塵餘生  
 片羽  
-Salt and Sanctuary  
 Purple software - アオイトリ
 古墓奇兵  
 汪達與巨像  
@@ -175,7 +174,6 @@ banner saga
 矮人要塞  
 魔女與百騎兵  
 龍族教義  
-光之子  
 Queen's Wish  
 魔幻歷險  
 幻世錄  
@@ -187,8 +185,14 @@ Child of Light
 Titan quest  
 Hades  
 Dungeon Siege II  
-八方旅人  
+Undertale  
+發明工坊  
 
+## Nintendo
+鹽與聖所  
+異域神劍  
+薩爾達  
+聖劍同盟  
 
 ## RPG  
 妖精劍士f  
