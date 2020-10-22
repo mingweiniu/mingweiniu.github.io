@@ -35,6 +35,9 @@ kissxkiss
 Free Life Fantasy Online  
 錢進戰國雄霸天下  
 戰國小町苦勞譚  
+幻想編年史  
+異世界悠閒農家  
+魔導具師妲莉亞永不妥協  
 
 ## Comic
 TRINITY SEVEN  
