@@ -32,6 +32,9 @@ hell diver
 當不成勇者的我，只好認真找工作了  
 kissxkiss  
 新妹  
+Free Life Fantasy Online  
+錢進戰國雄霸天下  
+戰國小町苦勞譚  
 
 ## Comic
 TRINITY SEVEN  
@@ -52,8 +55,11 @@ TRINITY SEVEN
 天野惠滿身都是破綻  
 久保同學不放過我  
 艾莉森  
+怪獸八號  
+縱之國  
+我的現實是戀愛遊戲 
 
-## Anime
+## Anime 
 戰鬥司書  
 俺物語  
 月色真美  
