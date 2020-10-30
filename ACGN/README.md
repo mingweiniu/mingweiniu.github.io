@@ -125,7 +125,7 @@ perosona
 * [Little Busters](https://store.steampowered.com/bundle/8809/Little_Busters_Game_and_Soundtrack_Bundle/)
 * [工畫堂](https://store.steampowered.com/bundle/5476/Kogado_Collection/)
 * [黃昏系列](https://store.steampowered.com/bundle/13066/Atelier_Dusk_Trilogy_Deluxe_Pack_____DX/)
-
+* [三小...](https://store.steampowered.com/bundle/5460/NISA_RPG_Bundle/)
 * [SEGA](https://store.steampowered.com/bundle/13945/SEGA_Mega_Drive_and_Genesis_Classics/)
 * [惡靈古堡](https://store.steampowered.com/bundle/261/Resident_EvilBiohazard_Collectors_Pack/)
 * [逆轉裁判](https://store.steampowered.com/bundle/10232/Phoenix_Wright_Ace_Attorney_Trilogy__Turnabout_Tunes_Bundle__123/)
