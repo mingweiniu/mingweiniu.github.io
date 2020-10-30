@@ -50,7 +50,7 @@ TRINITY SEVEN
 不要欺負我，長瀞同學  
 死神少爺與黑女僕  
 札月家的杏子妹妹  
-八雲小姐想要餵食。  
+八雲小姐想要餵食  
 想讓可愛的上司為我困擾  
 天野惠滿身都是破綻  
 久保同學不放過我  
@@ -122,19 +122,14 @@ perosona
 蟲師  
 
 ## Bundles
-* [優先](https://store.steampowered.com/bundle/9063/NekoNyan_Visual_Novel_Collection/)
 * [Little Busters](https://store.steampowered.com/bundle/8809/Little_Busters_Game_and_Soundtrack_Bundle/)
 * [工畫堂](https://store.steampowered.com/bundle/5476/Kogado_Collection/)
 * [Clannad](https://store.steampowered.com/bundle/2725/CLANNAD_Bundle/)
-* [灰色系列](https://store.steampowered.com/bundle/9605/Grisaia_Collection/)
-* [永遠のアセリア](https://store.steampowered.com/bundle/2633/The_Eternity_Sword_Series__Soundtracks/)
 * [黃昏系列](https://store.steampowered.com/bundle/13066/Atelier_Dusk_Trilogy_Deluxe_Pack_____DX/)
 * [D&D](https://store.steampowered.com/bundle/380/The_Infinity_Collection/)
-* [絕冬城之夜](https://store.steampowered.com/bundle/5253/Neverwinter_Nights_Enhanced_Edition_Digital_Deluxe/)
 * [PopCap](https://store.steampowered.com/bundle/1662/PopCap_Party_Pack/)
 * [Runic](https://store.steampowered.com/bundle/4132/Runic_Games_Collection/)
 * [SEGA](https://store.steampowered.com/bundle/13945/SEGA_Mega_Drive_and_Genesis_Classics/)
-* [瘟疫](https://store.steampowered.com/bundle/13986/Plague_Inc_and_Rebel_Inc/)
 * [惡靈古堡](https://store.steampowered.com/bundle/261/Resident_EvilBiohazard_Collectors_Pack/)
 * [逆轉裁判](https://store.steampowered.com/bundle/10232/Phoenix_Wright_Ace_Attorney_Trilogy__Turnabout_Tunes_Bundle__123/)
 * [Tomb Rider](https://store.steampowered.com/bundle/13831/Tomb_Raider_Collection/)
