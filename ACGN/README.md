@@ -124,11 +124,8 @@ perosona
 ## Bundles
 * [Little Busters](https://store.steampowered.com/bundle/8809/Little_Busters_Game_and_Soundtrack_Bundle/)
 * [工畫堂](https://store.steampowered.com/bundle/5476/Kogado_Collection/)
-* [Clannad](https://store.steampowered.com/bundle/2725/CLANNAD_Bundle/)
 * [黃昏系列](https://store.steampowered.com/bundle/13066/Atelier_Dusk_Trilogy_Deluxe_Pack_____DX/)
-* [D&D](https://store.steampowered.com/bundle/380/The_Infinity_Collection/)
-* [PopCap](https://store.steampowered.com/bundle/1662/PopCap_Party_Pack/)
-* [Runic](https://store.steampowered.com/bundle/4132/Runic_Games_Collection/)
+
 * [SEGA](https://store.steampowered.com/bundle/13945/SEGA_Mega_Drive_and_Genesis_Classics/)
 * [惡靈古堡](https://store.steampowered.com/bundle/261/Resident_EvilBiohazard_Collectors_Pack/)
 * [逆轉裁判](https://store.steampowered.com/bundle/10232/Phoenix_Wright_Ace_Attorney_Trilogy__Turnabout_Tunes_Bundle__123/)
