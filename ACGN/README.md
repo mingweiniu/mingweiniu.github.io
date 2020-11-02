@@ -135,6 +135,7 @@ perosona
 * [wtf](https://store.steampowered.com/bundle/7694/Kagura_Bundle/)
 
 ## games  
+小魔女帕妃  
 英雄傳說  
 魔女之泉  
 歧路旅人  
