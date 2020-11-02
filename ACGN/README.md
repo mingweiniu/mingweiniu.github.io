@@ -1,5 +1,12 @@
 # ACGN
 
+
+## Japanese
+https://flandredaisuki.github.io/Furikana-Lyric/  
+
+https://atilika.org/kuromoji/  
+
+##
 購入済み商品一覧 - アダルトPCゲーム音楽配信
 https://dlsoft.dmm.co.jp/music/mylibrary
 
