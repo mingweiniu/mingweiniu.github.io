@@ -47,6 +47,14 @@
   * Rebirth
   * Carry On
 
+## Netflix
+* The Rolling Stones
+* Eagles
+* The Beatles
+* Metallica
+* 《反叛者》
+
 ## 
 * 鄧福如 
 * Billie Eilish
+
