@@ -180,12 +180,14 @@ Titan quest
 Hades  
 Dungeon Siege II  
 Undertale  
+工人物語  
 
 ## Nintendo
 鹽與聖所  
 異域神劍  
 薩爾達  
 聖劍同盟  
+牧場物語  
 
 ## RPG  
 妖精劍士f  
