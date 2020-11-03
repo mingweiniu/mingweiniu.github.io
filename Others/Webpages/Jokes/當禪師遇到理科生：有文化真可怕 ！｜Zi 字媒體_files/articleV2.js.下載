@@ -1,0 +1,59 @@
+var article_modals_html = `
+<div class="modal-ae2-share-wrap reveal zi_gl-modal-mobile-bottom-wrap" id="modal-mobile-share" data-reveal="">
+      <div class="zi_gl-modal-mobile-empty"></div>
+      <div class="zi_gl-modal-mobile-bottom-body">
+        <div class="modal-gl-share--header">
+          <div class="zi_tit18">立即分享文章</div><span class="zi_btn-close" data-close aria-label="Close modal"><img src="/images/icon-close-black.svg" alt=""></span>
+        </div>
+        <ul class="zi_share-group zi_ae2-for-small">
+          <li class="zi_share-item">
+            <div class="zi_btn-round zi_btn-round-line __zimedia_line_share_page">Line</div><span>Line好友</span>
+          </li>
+          <li class="zi_share-item">
+            <div class="zi_btn-round zi_btn-round-fb __zimedia_facebook_share_page"><img src="/images/icon-fb.svg"></div><span>Facebook</span>
+          </li>
+          <li class="zi_share-item">
+            <div class="zi_btn-round zi_btn-round-copy to-copy-url-trigger">
+		    <img src="/images/icon-copy.svg">
+	    </div>
+	    <span>複製網址</span>
+          </li>
+        </ul>
+        <ul class="zi_share-group zi_ae2-for-large">
+          <li class="zi_share-item zi_ae2-share-link gl-oneline-dot to-copy-url-trigger">
+	  	<span class="gl-oneline-dot to-copy-url"></span>
+		<span>複製網址</span>
+	  </li>
+          <li class="zi_share-item zi_ae2-share-fb __zimedia_facebook_share_page"><span>分享至 Facebook</span></li>
+          <li class="zi_share-item zi_ae2-share-line __zimedia_line_share_page"><a href="#">分享至 Line</a></li>
+        </ul><span class="zi_btn-close-share" data-close aria-label="Close modal">關閉</span>
+      </div>
+    </div>
+
+    <div class="modal-gl-report reveal zl_gl-modal-mobile" id="modal-gl-report" data-reveal="">
+	    <div class="zi_gl-modal-between">
+		    <span class="zi_tit18 gl_flex-align-center">
+			    <img src="/images/icon-v2-report-bk.svg" alt="">檢舉<span class="inappropriate_report_type_text">文章</span>
+		    </span>
+		    <span class="zi_goback" data-close aria-label="Close modal">
+		    	<img src="/images/icon-close-black.svg">
+		    </span>
+	    </div>
+      <div class="zl_gl-modal-mobile-body zi_ae2-report-wrap">
+        <div class="zi_ae2-report-item">
+          <div class="zi_tit18">檢舉原因*</div>
+	  <select id="inappropriate_reasons"><option value="01"  data-article data-feedback>內容不當</option><option value="02"  data-article data-feedback>內容情色</option><option value="03"  data-article data-feedback>暴力血腥</option><option value="04"  data-article data-feedback>侵犯版權</option><option value="05"  data-article>破圖嚴重</option><option value="00"  data-article data-feedback>其他</option></select>
+        </div>
+        <div class="zi_ae2-report-item">
+          <div class="zi_tit18">檢舉說明*</div>
+          <textarea id="inappropriate_description" placeholder="請簡略説明檢舉原因"></textarea>
+        </div>
+        <div class="gl_flex-row-end"><span class="zi_btn-main zi_btn-text" data-close aria-label="Close modal">取消</span>
+          <button class="zi_btn-black" type="submit">送出</button>
+        </div>
+        <p class="zi_fz16">提醒！惡意檢舉將導致帳號與 IP 被封鎖</p>
+      </div>
+    </div>
+`;
+
+document.body.insertAdjacentHTML( 'beforeend', article_modals_html );

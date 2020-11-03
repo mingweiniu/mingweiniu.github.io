@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://zi.media/@yidianzixun/post/k5uMun -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"><style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style><style id="badbc53f89b219670140a095b8e99cce-style" type="text/css">.ad-mode video::-webkit-media-controls {
+  display: none;
+}
+.poster-outer-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 8;
+  cursor: pointer;
+}
+.poster-outer-gray {
+  background-color: #333;
+}
+.poster-inner-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+</style><style id="96a898ee9e6226f4f6b5d481aa483592-style" type="text/css">.animated-poster-media-element {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  -webkit-transition: opacity .9s;
+  -moz-transition: opacity .9s;
+  -ms-transition: opacity .9s;
+  -o-transition: opacity .9s;
+  transition: opacity .9s;
+}
+div.animated-poster-media-element {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+video.animated-poster-media-element {
+  object-fit: cover;
+}
+.animated-poster-loading .animated-poster-media-element {
+  opacity: 0;
+}
+.animated-poster-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 1;
+  -webkit-transition: opacity .1s;
+  -moz-transition: opacity .1s;
+  -ms-transition: opacity .1s;
+  -o-transition: opacity .1s;
+  transition: opacity .1s;
+}
+.animated-poster-loading .animated-poster-overlay {
+  opacity: 0;
+}
+.click-to-play {
+  position: absolute;
+  top: 11px;
+  left: 11px;
+  display: inline-block;
+  font-family: Arial;
+  color: rgba(255, 255, 255, 0.8);
+  z-index: 3;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -ms-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+  opacity: 0;
+}
+.animated-poster-loaded .click-to-play {
+  opacity: 1;
+}
+.inner-curtain,
+.outer-curtain {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-transform: skew(-23deg);
+  -moz-transform: skew(-23deg);
+  -ms-transform: skew(-23deg);
+  -o-transform: skew(-23deg);
+  transform: skew(-23deg);
+}
+.inner-curtain {
+  z-index: 1;
+}
+.outer-curtain {
+  z-index: 2;
+}
+.top-left-curtain {
+  -webkit-transition: left 1s;
+  -moz-transition: left 1s;
+  -ms-transition: left 1s;
+  -o-transition: left 1s;
+  transition: left 1s;
+}
+.bottom-right-curtain {
+  -webkit-transition: right 1s;
+  -moz-transition: right 1s;
+  -ms-transition: right 1s;
+  -o-transition: right 1s;
+  transition: right 1s;
+}
+.animated-poster-loaded .top-left-curtain {
+  -webkit-transition: left .3s;
+  -moz-transition: left .3s;
+  -ms-transition: left .3s;
+  -o-transition: left .3s;
+  transition: left .3s;
+}
+.animated-poster-loaded .bottom-right-curtain {
+  -webkit-transition: right .3s;
+  -moz-transition: right .3s;
+  -ms-transition: right .3s;
+  -o-transition: right .3s;
+  transition: right .3s;
+}
+.animated-poster-loading .top-left-curtain {
+  left: -50% !important;
+}
+.animated-poster-loading .bottom-right-curtain {
+  right: -50% !important;
+}
+.top-left-curtain.outer-curtain {
+  left: -76%;
+}
+.top-left-curtain.inner-curtain {
+  left: -88%;
+}
+.bottom-right-curtain.outer-curtain {
+  right: -76%;
+}
+.bottom-right-curtain.inner-curtain {
+  right: -88%;
+}
+.hover-enabled .animated-poster-loaded:hover .top-left-curtain.outer-curtain {
+  left: -80%;
+}
+.hover-enabled .animated-poster-loaded:hover .top-left-curtain.inner-curtain {
+  left: -90%;
+}
+.hover-enabled .animated-poster-loaded:hover .bottom-right-curtain.outer-curtain {
+  right: -80%;
+}
+.hover-enabled .animated-poster-loaded:hover .bottom-right-curtain.inner-curtain {
+  right: -90%;
+}
+</style><style id="6a2e6b079833699a46594c1148ae558a-style" type="text/css">.skin5-poster-title-ribbon {
+  padding: 0 24px;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(34, 34, 34, 0.85);
+  position: absolute;
+  bottom: 18px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table;
+}
+.skin5-poster-title-ribbon-table {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.skin5-poster-title-ribbon-row {
+  display: table-row;
+}
+.skin5-poster-title-ribbon-row > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+.skin5-poster-play-button-cell {
+  width: 1px;
+}
+/* auto-sizes the col */
+.skin5-poster-title-cell-large-font,
+.skin5-poster-title-cell-medium-font,
+.skin5-poster-title-cell-small-font {
+  max-width: 450px;
+  font-family: Arial;
+  color: #d0d0d0;
+  padding: 15px 0 15px 15px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+.skin5-poster-title-cell-large-font {
+  font-size: 28px;
+}
+.skin5-poster-title-cell-medium-font {
+  font-size: 18px;
+  line-height: 22px;
+}
+.skin5-poster-title-cell-small-font {
+  padding-top: 30px;
+  font-size: 15px;
+  line-height: 18px;
+}
+.skin5-poster-duration-container {
+  position: absolute;
+  bottom: 90px;
+  left: 112px;
+  font: 11px/11px Arial;
+  color: #8e8f8d;
+}
+.skin5-poster-corner-button {
+  position: absolute;
+  left: calc(50% - 32px);
+  top: calc(50% - 32px);
+}
+.skin5-poster-play-button {
+  width: 65px;
+  height: 65px;
+  border-radius: 73px;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 4px;
+  position: relative;
+}
+.skin5-poster-play-button.skin5-poster-resume-ad-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.skin5-poster-play-icon {
+  position: absolute;
+  width: 13px;
+  height: 21px;
+  top: calc(50% - 10px);
+  left: calc(50% - 5px);
+}
+.skin5-poster-replay-icon {
+  position: absolute;
+  width: 36px;
+  height: 35px;
+  top: calc(50% - 17px);
+  left: calc(50% - 17px);
+}
+.skin5-poster-play-button .player-icon {
+  fill: #d0d0d0;
+}
+.skin5-poster-play-button .medium-ring-arc {
+  display: none;
+}
+.fullscreen-button-replay {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+.exit-fullscreen-icon-replay {
+  display: block;
+}
+</style><style id="8fd0b2732a1f7f81318c8972089a870a-style" type="text/css">.player-icon {
+  vertical-align: top;
+}
+.hover-enabled .poster-outer-container:hover .poster-control .player-icon {
+  fill: #10abe2;
+}
+.fullscreen-mode,
+.fullscreen-mode #videos-container,
+.fullscreen-mode .control-bar-container {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  left: 0 !important;
+  top: 0 !important;
+}
+.player-spinner {
+  display: inline-block;
+  position: absolute;
+  pointer-events: none;
+  top: calc(50% - 41px);
+  /* must use escape sequence to prevent yahoo's css compressor from changing it */
+  left: calc(50% - 41px);
+  /* must use escape sequence to prevent yahoo's css compressor from changing it */
+  width: 74px;
+  height: 74px;
+  padding: 4px;
+  color: #10abe2;
+  background: rgba(34, 34, 34, 0.5);
+  border-radius: 74px;
+  z-index: 5;
+  -webkit-animation: rotate 1s linear infinite;
+  -moz-animation: rotate 1s linear infinite;
+  -ms-animation: rotate 1s linear infinite;
+  animation: rotate 1s linear infinite;
+}
+@-ms-keyframes rotate {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+</style><style id="fb793848dca08747ca0357fef1253933-style" type="text/css">.ad-info-bar {
+  position: absolute;
+  bottom: 100%;
+  width: 100%;
+  -moz-transform: translateY(-37px);
+  -webkit-transform: translateY(-37px);
+  transform: translateY(-37px);
+  -moz-transition: -moz-transform 0.5s;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: transform .5s;
+  z-index: 4;
+}
+.top-ad-container {
+  position: absolute;
+  top: 4px;
+  width: 100%;
+  z-index: 1;
+}
+.ad-progress-bar {
+  bottom: -4px;
+  height: 4px;
+  background-color: rgba(34, 34, 34, 0.15);
+  position: relative;
+  display: none;
+}
+.expand-ad-info-bar .ad-progress-bar,
+.small-ad-info-bar .ad-progress-bar {
+  display: block;
+}
+.expand-ad-info-bar .ad-info-bar,
+.small-ad-info-bar .ad-info-bar,
+.tiny-ad-info-bar .ad-info-bar {
+  -moz-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  -moz-transition: -moz-transform 0.5s;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: transform .5s;
+  display: block;
+}
+.ad-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: #10abe2;
+}
+.in-progress {
+  -webkit-transition: width .3s linear;
+  -moz-transition: width .3s linear;
+  transition: width .3s linear;
+}
+.ad-info-container {
+  color: #d0d0d0;
+  font: 12px/13px Arial;
+  background-color: rgba(34, 34, 34, 0.85);
+  padding: 10px 15px;
+  display: none;
+  table-layout: fixed;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.expand-ad-info-bar .ad-info-container {
+  display: table;
+}
+.tiny-ad-info-container {
+  color: #d0d0d0;
+  padding: 2px 6px 3px;
+  font: 11px Arial;
+  background-color: rgba(34, 34, 34, 0.6);
+  width: auto;
+  border-color: rgba(153, 153, 153, 0.6);
+  border-width: 1px;
+  border-style: solid;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+.tiny-ad-info-bar .tiny-ad-info-container {
+  opacity: 1;
+  display: inline-block;
+  pointer-events: auto;
+}
+.ad-info-caption {
+  display: table-cell;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ad-time-remaining {
+  display: table-cell;
+  text-align: right;
+  width: 40px;
+}
+.ad-icons-layer-container {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  pointer-events: none;
+}
+.ad-icons-layer-container .ad-icons-layer {
+  pointer-events: auto;
+}
+</style><style id="a2f8924b97f3be8cdc0f60bf2f7c5081-style" type="text/css">.look-ahead-ad-panel {
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  width: 125px;
+  height: 45px;
+  z-index: 6;
+  color: #d0d0d0;
+  font: 12px/13px Arial;
+  background-color: rgba(34, 34, 34, 0.85);
+  padding: 8px 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  text-align: right;
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  cursor: pointer;
+}
+.look-ahead-ad-panel:hover .look-ahead-ad-panel-skip {
+  text-decoration: underline;
+}
+.look-ahead-ad-panel:hover .look-ahead-ad-panel-skip .player-icon {
+  fill: #10abe2;
+}
+.fullscreen-mode .look-ahead-ad-panel {
+  width: 165px;
+  height: 55px;
+  bottom: 98px;
+  font-size: 18px;
+}
+.fullscreen-mode .look-ahead-ad-panel-skip {
+  margin-top: 10px;
+}
+.look-ahead-ad-panel-skip {
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+.look-ahead-ad-panel-element {
+  width: 100%;
+}
+.look-ahead-ad-panel-time-span {
+  font-weight: bold;
+}
+.look-ahead-ad-panel-skip-icon {
+  width: 7px;
+  height: 7px;
+  margin-left: 5px;
+  display: inline-block;
+}
+.expand-skip-button {
+  opacity: 1;
+  -moz-animation: expand-skip-button 0.7s;
+  -webkit-animation: expand-skip-button 0.7s;
+  animation: expand-skip-button 0.7s;
+  -moz-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+.collapse-skip-button {
+  opacity: 0;
+  -moz-animation: collapse-skip-button 0.7s;
+  -webkit-animation: collapse-skip-button 0.7s;
+  animation: collapse-skip-button 0.7s;
+}
+@keyframes expand-skip-button {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@-moz-keyframes expand-skip-button {
+  from {
+    -moz-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes expand-skip-button {
+  from {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes collapse-skip-button {
+  from {
+    opacity: 1;
+    -moz-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  to {
+    opacity: 1;
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+@-moz-keyframes collapse-skip-button {
+  from {
+    opacity: 1;
+    -moz-transform: translateX(0);
+    transform: translateX(0);
+  }
+  to {
+    opacity: 1;
+    -moz-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+@-webkit-keyframes collapse-skip-button {
+  from {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+</style></head><body><div style="height:100%;position:relative"><div style="position:absolute;left:0;top:0;width:100%;height:100%;z-index:-1;background-color:#000000"></div><div id="AolHtml5Player" class="hover-enabled" style="position: relative; overflow: hidden; background-color: rgb(0, 0, 0); width: 100%; height: 100%;"><div class="player-spinner" style="display: none;"><svg class="player-icon" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" viewBox="0 0 66 66"><lineargradient id="thin-spinner-gradient" gradientUnits="userSpaceOnUse" x1="55.6484" y1="14.5625" x2="-28.5724" y2="85.2322" gradientTransform="matrix(0 1 1.5 .1 0 -2)"><stop offset="0" stop-color="currentColor" stop-opacity="1"></stop><stop offset="0.5" stop-color="currentColor" stop-opacity="0"></stop></lineargradient><path id="thin-spinner-path" fill="url(#thin-spinner-gradient)" d="M-0.014,33c0,18.193,14.813,32.992,33.006,32.992 C51.188,65.992,66,51.193,66,33C66,14.809,51.188,0.008,32.992,0.008C14.799,0.008-0.014,14.809-0.014,33z M61.986,33 c0,15.996-13.006,29.01-28.992,29.01S4.002,48.996,4.002,33S17.008,3.99,32.994,3.99S61.986,17.004,61.986,33z"></path><clippath id="thin-spinner-clip-path"><use xlink:href="#thin-spinner-path"></use></clippath><rect x="0" y="0" clip-path="url(#thin-spinner-clip-path)" fill="currentColor" width="33" height="66"></rect></svg></div><div id="videos-container" style="position: relative; overflow: hidden; margin: 0% 0px 0px 0%; height: 100%; width: 100%;"><video preload="none" style="display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; padding: 0; margin: 0; z-index: 1;" playsinline="" autoplay="true" webkit-playsinline=""></video><video preload="none" style="display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; padding: 0; margin: 0; z-index: 1;" playsinline="true" autoplay="true"></video><video preload="none" style="display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; padding: 0; margin: 0; z-index: 1;" playsinline="true" autoplay="true" webkit-playsinline=""></video><object style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; pointer-events: none; z-index: -1; opacity: 0;" class="resize-sensor" tabindex="-1" type="text/html" data="./saved_resource(36).html"></object></div><span tabindex="0" style="position: absolute; left: -999em;">This is the AOL video player, press Space to toggle play and pause</span><div id="vdb-player-overlay-container-5c515caa023e750d089044b5" class="vdb-player-overlay-container" style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px; z-index: 2; pointer-events: none;"></div><div class="subtitles-bottom-container" style="display: none; position: absolute; width: 90%; padding: 0.5% 5%; text-align: center; z-index: 2; background-color: rgba(0, 0, 0, 0); bottom: 9px;"><div style="line-height: 0;"><div class="subtitles-text" style="display: inline-block; padding: 0.5% 1%; font-family: Arial, sans-serif; color: rgb(255, 255, 255); text-shadow: rgb(34, 34, 34) 0px 0px 4px, rgb(34, 34, 34) 0px 0px 4px, rgb(34, 34, 34) 0px 0px 4px, rgb(34, 34, 34) 0px 0px 4px; text-transform: none; background-color: rgba(0, 0, 0, 0.5); font-size: 12px; line-height: 150%;"></div></div></div><div class="ad-icons-layer-container"></div><div class="ad-info-bar"><div class="ad-progress-bar"><div class="ad-progress"></div></div></div><div class="top-ad-container"><div class="ad-info-container"><div class="ad-info-caption"></div><div class="ad-time-remaining">&nbsp;</div></div><div class="tiny-ad-info-container"></div></div><iframe src="./local-storage.html" style="display: none;"></iframe><div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #000; overflow: hidden; z-index: 50;"><div><div style="font-family: Arial; color: #fff; line-height: normal;"><div style=""><div style="font-weight: bold; font-size: 26.880000000000003px; text-align: left"><span style="position: absolute; left: 17.92px; top: 17.92px; z-index:3;">We Are Sorry,</span></div></div><div style="display: table; position: absolute; top: 0; left: 0; z-index: 2; width: 100%; height: 100%;"><div style="text-align: center; vertical-align: middle; display: table-row;"><div style="display: table-cell; text-align: center; vertical-align: middle;"><div style="display: inline-block;"><div style="display: inline-block; width: 90%; font-size: 20.160000000000004px; margin-top: 13.440000000000001px;">Video no longer available</div></div></div></div></div><div style="position: absolute; left: 6.720000000000001px; bottom: 6.720000000000001px; z-index:3;"><span style="font-family: Courier, monospace; font-size: 13.440000000000001px;">Ecode: 9999</span></div></div></div><div class="error-collage" style="position: absolute; bottom: 0; right: 0; width:101px; height:46px"><svg class="player-icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 841.889 383.141"><path fill="#666666" d="M434.241,55.156C434.241,24.695,409.549,0,379.086,0c-30.464,0-55.158,24.695-55.158,55.159 c0,28.564,21.713,52.055,49.535,54.873l8.389,12.089l6.989-12.686C414.643,104.829,434.241,82.288,434.241,55.156z"></path><path fill="#666666" d="M80.408,320.834c15.044-19.655,11.304-47.783-8.349-62.827c-19.652-15.046-47.782-11.308-62.827,8.345 c-14.108,18.431-11.701,44.312,4.859,59.869l-0.558,11.942l10.774-4.732C43.231,343.206,67.006,338.338,80.408,320.834z"></path><path fill="#333333" d="M661.403,215.262c9.69,36.463,47.102,58.16,83.555,48.473c36.463-9.685,58.164-47.094,48.479-83.556 c-9.082-34.186-42.542-55.401-76.734-49.924l-13.888-11.803l-4.332,17.404C669.066,149.577,652.781,182.792,661.403,215.262z"></path><path opacity="0.3" fill="#FFFFFF" enable-background="new " d="M713.125,302.967c15.796-18.109,13.916-45.591-4.19-61.382 c-18.107-15.795-45.592-13.923-61.385,4.191c-14.809,16.978-14.084,42.2,0.99,58.297l-1.278,11.541l10.729-3.916 C675.721,322.337,699.055,319.094,713.125,302.967z"></path><path fill="#333333" d="M241.063,380.965c1.311,1.181,2.646,2.318,4,3.422h133.307c4.153-3.389,8.103-7.138,11.802-11.242 c36.581-40.629,35.78-101.859-0.186-141.497l3.547-27.948l-26.188,9.089c-42.609-26.485-99.358-19.511-134.104,19.074 C194.221,275.2,197.73,341.957,241.063,380.965z"></path></svg></div></div><div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #000; overflow: hidden; z-index: 50;"><div><div style="font-family: Arial; color: #fff; line-height: normal;"><div style=""><div style="font-weight: bold; font-size: 26.880000000000003px; text-align: left"><span style="position: absolute; left: 17.92px; top: 17.92px; z-index:3;">We Are Sorry,</span></div></div><div style="display: table; position: absolute; top: 0; left: 0; z-index: 2; width: 100%; height: 100%;"><div style="text-align: center; vertical-align: middle; display: table-row;"><div style="display: table-cell; text-align: center; vertical-align: middle;"><div style="display: inline-block;"><div style="display: inline-block; width: 90%; font-size: 20.160000000000004px; margin-top: 13.440000000000001px;">Video no longer available</div></div></div></div></div><div style="position: absolute; left: 6.720000000000001px; bottom: 6.720000000000001px; z-index:3;"><span style="font-family: Courier, monospace; font-size: 13.440000000000001px;">Ecode: 9999</span></div></div></div><div class="error-collage" style="position: absolute; bottom: 0; right: 0; width:101px; height:46px"><svg class="player-icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 841.889 383.141"><path fill="#666666" d="M434.241,55.156C434.241,24.695,409.549,0,379.086,0c-30.464,0-55.158,24.695-55.158,55.159 c0,28.564,21.713,52.055,49.535,54.873l8.389,12.089l6.989-12.686C414.643,104.829,434.241,82.288,434.241,55.156z"></path><path fill="#666666" d="M80.408,320.834c15.044-19.655,11.304-47.783-8.349-62.827c-19.652-15.046-47.782-11.308-62.827,8.345 c-14.108,18.431-11.701,44.312,4.859,59.869l-0.558,11.942l10.774-4.732C43.231,343.206,67.006,338.338,80.408,320.834z"></path><path fill="#333333" d="M661.403,215.262c9.69,36.463,47.102,58.16,83.555,48.473c36.463-9.685,58.164-47.094,48.479-83.556 c-9.082-34.186-42.542-55.401-76.734-49.924l-13.888-11.803l-4.332,17.404C669.066,149.577,652.781,182.792,661.403,215.262z"></path><path opacity="0.3" fill="#FFFFFF" enable-background="new " d="M713.125,302.967c15.796-18.109,13.916-45.591-4.19-61.382 c-18.107-15.795-45.592-13.923-61.385,4.191c-14.809,16.978-14.084,42.2,0.99,58.297l-1.278,11.541l10.729-3.916 C675.721,322.337,699.055,319.094,713.125,302.967z"></path><path fill="#333333" d="M241.063,380.965c1.311,1.181,2.646,2.318,4,3.422h133.307c4.153-3.389,8.103-7.138,11.802-11.242 c36.581-40.629,35.78-101.859-0.186-141.497l3.547-27.948l-26.188,9.089c-42.609-26.485-99.358-19.511-134.104,19.074 C194.221,275.2,197.73,341.957,241.063,380.965z"></path></svg></div></div><div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #000; overflow: hidden; z-index: 50;"><div><div style="font-family: Arial; color: #fff; line-height: normal;"><div style=""><div style="font-weight: bold; font-size: 26.880000000000003px; text-align: left"><span style="position: absolute; left: 17.92px; top: 17.92px; z-index:3;">We Are Sorry,</span></div></div><div style="display: table; position: absolute; top: 0; left: 0; z-index: 2; width: 100%; height: 100%;"><div style="text-align: center; vertical-align: middle; display: table-row;"><div style="display: table-cell; text-align: center; vertical-align: middle;"><div style="display: inline-block;"><div style="display: inline-block; width: 90%; font-size: 20.160000000000004px; margin-top: 13.440000000000001px;">Video no longer available</div></div></div></div></div><div style="position: absolute; left: 6.720000000000001px; bottom: 6.720000000000001px; z-index:3;"><span style="font-family: Courier, monospace; font-size: 13.440000000000001px;">Ecode: 9999</span></div></div></div><div class="error-collage" style="position: absolute; bottom: 0; right: 0; width:101px; height:46px"><svg class="player-icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 841.889 383.141"><path fill="#666666" d="M434.241,55.156C434.241,24.695,409.549,0,379.086,0c-30.464,0-55.158,24.695-55.158,55.159 c0,28.564,21.713,52.055,49.535,54.873l8.389,12.089l6.989-12.686C414.643,104.829,434.241,82.288,434.241,55.156z"></path><path fill="#666666" d="M80.408,320.834c15.044-19.655,11.304-47.783-8.349-62.827c-19.652-15.046-47.782-11.308-62.827,8.345 c-14.108,18.431-11.701,44.312,4.859,59.869l-0.558,11.942l10.774-4.732C43.231,343.206,67.006,338.338,80.408,320.834z"></path><path fill="#333333" d="M661.403,215.262c9.69,36.463,47.102,58.16,83.555,48.473c36.463-9.685,58.164-47.094,48.479-83.556 c-9.082-34.186-42.542-55.401-76.734-49.924l-13.888-11.803l-4.332,17.404C669.066,149.577,652.781,182.792,661.403,215.262z"></path><path opacity="0.3" fill="#FFFFFF" enable-background="new " d="M713.125,302.967c15.796-18.109,13.916-45.591-4.19-61.382 c-18.107-15.795-45.592-13.923-61.385,4.191c-14.809,16.978-14.084,42.2,0.99,58.297l-1.278,11.541l10.729-3.916 C675.721,322.337,699.055,319.094,713.125,302.967z"></path><path fill="#333333" d="M241.063,380.965c1.311,1.181,2.646,2.318,4,3.422h133.307c4.153-3.389,8.103-7.138,11.802-11.242 c36.581-40.629,35.78-101.859-0.186-141.497l3.547-27.948l-26.188,9.089c-42.609-26.485-99.358-19.511-134.104,19.074 C194.221,275.2,197.73,341.957,241.063,380.965z"></path></svg></div></div></div></div><script type="text/javascript" src="./player-hls-latest-min.js.下載"></script></body></html>

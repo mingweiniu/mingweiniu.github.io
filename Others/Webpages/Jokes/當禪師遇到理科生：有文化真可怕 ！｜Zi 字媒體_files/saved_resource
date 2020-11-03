@@ -1,0 +1,21 @@
+
+var ftGUID_3649976="41658B83B3DB8A";
+var ftConfID_3649976="0";
+var ftParams_3649976="ftx=&fty=&ftadz=&ftscw=&ft_custom=nQNWGqMjIz6TLDs6swNSI5czKx2iBYc-lhE=&ftOBA=1&ft_ifb=1&ft_domain=zi.media&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fzi.media%2F%40yidianzixun%2Fpost%2Fk5uMun&ft_section=__38326950660051623930335757923020224126&cachebuster=586156.8817285385&gdpr=0&gdpr_consent=";
+var ftKeyword_3649976="";
+var ftCustom_3649976="nQNWGqMjIz6TLDs6swNSI5czKx2iBYc-lhE=";
+var ftSection_3649976="__38326950660051623930335757923020224126";
+var ftSegment_3649976="";
+var ftSegmentList_3649976=[];
+var ftRuleMatch_3649976="0";
+var ftTimestamp_3649976="1567499697";
+var ftImp3649976 = {};
+ftImp3649976.privacy = "x";
+ftImp3649976.guidAge = "98";
+ftImp3649976.impID = "61039780-5853-5AFB-BF73-794E35E33CE1";
+ftImp3649976.duid = "FT:41658B83B3DB8A";
+
+ftImp3649976.ft_tpplid = "";
+ftImp3649976.ft_c = {};
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/364/3649976/2776255/js/j-3649976-2776255.js" id="ftscript_m3649976" name="ftscript_m3649976"></scr'+'ipt>');

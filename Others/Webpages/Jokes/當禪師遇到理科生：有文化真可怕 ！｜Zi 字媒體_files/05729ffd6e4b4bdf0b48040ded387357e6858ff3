@@ -1,0 +1,20 @@
+var iframe = window.frameElement;
+if (iframe) {
+  iframe.style.cssText = "width:100% !important;";
+}
+var btcs = {
+  csId: '23',
+  token: '11f4a157d8f5f090e2af40fd81c0eec0',
+  label: 'textlink',
+  style: 'general',
+  inlineCss: '{"textlinkAd": {"backgroundColor":"#118FAA", "borderColor":"#118FAA", "color": "#fff"}, "textlinkAdHover": {"backgroundColor":"#fff", "borderColor":"#118FAA", "color": "#118FAA"}}'
+}
+
+var container = document.currentScript.nextElementSibling;
+for (var key in btcs) {
+	container.dataset[key] = btcs[key]
+}
+
+var s = document.createElement('script')
+s.src = 'https://csmaster.breaktime-inc.com/cs_master/textlink_master/general.js'
+container.parentNode.insertBefore(s, container)

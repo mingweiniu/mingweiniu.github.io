@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="zh-TW"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!-- base href="https://www.cool-style.com.tw/wd2/archives/522009" --><style>body{margin-left:0;margin-right:0;margin-top:0}#bN015htcoyT__google-cache-hdr{background:#f5f5f5;font:13px arial,sans-serif;text-align:left;color:#202020;border:0;margin:0;border-bottom:1px solid #cecece;line-height:16px;padding:16px 28px 24px 28px}#bN015htcoyT__google-cache-hdr *{display:inline;font:inherit;text-align:inherit;color:inherit;line-height:inherit;background:none;border:0;margin:0;padding:0;letter-spacing:0}#bN015htcoyT__google-cache-hdr a{text-decoration:none;color:#1a0dab}#bN015htcoyT__google-cache-hdr a:hover{text-decoration:underline}#bN015htcoyT__google-cache-hdr a:visited{color:#609}#bN015htcoyT__google-cache-hdr div{display:block;margin-top:4px}#bN015htcoyT__google-cache-hdr b{font-weight:bold;display:inline-block;direction:ltr}</style><style></style><script async="" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/beacon.js"></script><script id="AotterTrek" async="" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/sdk.js"></script><script async="" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/fbevents.js"></script><script type="text/javascript" async="" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/atrk.js"></script><script async="" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/gtm.js"></script><script type="text/javascript" async="" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/analytics.js"></script><script src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/wp-emoji-release.js" type="text/javascript" defer="defer"></script><style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style><script charset="utf-8" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/1.js"></script></head><body class="post-template-default single single-post postid-522009 single-format-standard"><div id="bN015htcoyT__google-cache-hdr"><div><span>這是 Google 對 <a href="https://www.cool-style.com.tw/wd2/archives/522009">https://www.cool-style.com.tw/wd2/archives/522009</a> 的快取。</span>&nbsp;<span>這是該網頁於 2020年5月18日 10:05:29 GMT 顯示時的快照。</span>&nbsp;<span>在此期間，<a href="https://www.cool-style.com.tw/wd2/archives/522009">目前網頁</a>可能已經變更。</span>&nbsp;<a href="http://support.google.com/websearch/bin/answer.py?hl=zh-TW&amp;p=cached&amp;answer=1687222"><span>瞭解更多資訊</span>.</a></div><div><span style="display:inline-block;margin-top:8px;margin-right:104px;white-space:nowrap"><span style="margin-right:28px"><span style="font-weight:bold">完整版</span></span><span style="margin-right:28px"><a href="http://webcache.googleusercontent.com/search?q=cache:Drr5wgdJ1FcJ:https://www.cool-style.com.tw/wd2/archives/522009&amp;client=firefox-b-d&amp;hl=zh-TW&amp;gl=tw&amp;strip=1&amp;vwsrc=0"><span>純文字版</span></a></span><span style="margin-right:28px"><a href="http://webcache.googleusercontent.com/search?q=cache:Drr5wgdJ1FcJ:https://www.cool-style.com.tw/wd2/archives/522009&amp;client=firefox-b-d&amp;hl=zh-TW&amp;gl=tw&amp;strip=0&amp;vwsrc=1"><span>檢視原始碼</span></a></span></span></div><span style="display:inline-block;margin-top:8px;color:#717171"><span>提示：如要在這個網頁上快速尋找您所搜尋的字詞，請按下 <b>Ctrl+F</b> 鍵或 <b>⌘-F</b> 鍵 (Mac)，然後使用尋找列進行搜尋。</span></span></div><div style="position:relative;">
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/js_002"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-1010265-5');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-124843339-1');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="dailymotion-domain-verification" content="dm0x1ipdsii63xm2y">
+<link rel="pingback" href="https://www.cool-style.com.tw/wd2/xmlrpc.php">
+<title>百萬訂閱網紅「RU味春捲」狠酸同業「靠露奶吸引人意淫」，被抓包分身帳號後稱「都是同事留言的」！ - COOL-STYLE 潮流生活網</title>
+<script type="application/javascript">var ajaxurl = "https://www.cool-style.com.tw/wd2/wp-admin/admin-ajax.php"</script>
+<!-- This site is optimized with the Yoast SEO plugin v12.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://www.cool-style.com.tw/wd2/archives/522009">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:type" content="article">
+<meta property="og:title" content="百萬訂閱網紅「RU味春捲」狠酸同業「靠露奶吸引人意淫」，被抓包分身帳號後稱「都是同事留言的」！ - COOL-STYLE 潮流生活網">
+<meta property="og:description" content="以動漫、電玩歌曲的鋼琴演奏聞名的知名網紅「RU味春捲」上週突破百萬訂閱，在喜迎如此盛大慶祝之時卻遭逢巨大爭議事件。前幾日在知名討論區「巴哈場外版」有名網友張貼一則慶祝 RuRu 破百萬訂閱的文章，除了恭喜之外也有不少網友暗諷了 RuRu 根本是靠「露奶」走紅，卻意外釣到本尊回覆「請問我哪時露奶了？」，更在該留言下暗酸同為動漫鋼琴台的「Pan Piano」靠奶吸引意淫人氣，卻也因為本尊帳號被釣出意外曝光多個討論區的小號，各種惡意言論與自洗人氣的行徑通通遭曝光！ 當天 RuRu 明顯遭到網友釣魚影響心情，原只是出面遏止網友的酸言酸語，沒想到他卻意外對著同類型的「Pan Piano」直接開噴，以「自己留言底下沒有沒水準的日本人」來暗諷對方靠著賣弄姿色騙取點閱與意淫留言，但出動個人帳號後不但被掀出帳號的 IP 位置，更連他其他的分身帳號都被全部挖出，先前自導自演洗人氣、狂罵競業的誇張行為映入眼簾，讓人不敢相信這就是平常影片內端莊的 RuRu。 &nbsp; 雖然不久後 RuRu 便發出聲明與粉絲與「Pan Piano」道歉，但卻將小號發言等行為全推到另名工作室成員小春身上，自己以本尊暗酸「Pan Piano」更是隻字不提，但沒想到前幾日慶祝百萬訂閱的文章卻因此讓他露餡，因為在該篇貼文中她曾透露該頻道全由她個人一手經營，分身帳號的解釋瞬間被打臉成藉口，許多網友也紛紛在道歉貼文下回覆表達不滿，認為 RuRu 將所有責任推到那位不知道存不存在的工作夥伴上非常不公平，好好的百萬訂閱也因為這起爭議事件蒙上一層陰影。 &nbsp; 在 Instagram 查看這則貼文 &nbsp; 大家好，我是RuRu 昨晚回頭看了這二天的文，才了解原來在各論壇的討論從未斷過，而其中有一些誤會，我想在這裡統一跟大家說明清楚： 首先，我只有一個PTT帳號、也只有一個巴哈帳號，我從未言語抨擊過他人。 而大家調查出跟我IP多次相同、發文間隔過短的帳號，是我其中一個團隊夥伴的帳號(小春)，早期的粉絲應該曾看過他參與開箱影片及遊戲實況。 我平常工作繁忙，連自己社群平台的訊息及留言都久久才回覆一次，直到昨晚看完網友整理的懶人包，才發現他長期在各論壇做了這麼多惡劣與抨擊他人的言論。 雖然這些言論不是出自於我，但我仍需要對整起事件負起責任。 我想在這裡跟Pan Piano及大家鄭重道歉，是我沒有即時注意到並且阻止夥 …">
+<meta property="og:url" content="https://www.cool-style.com.tw/wd2/archives/522009">
+<meta property="og:site_name" content="COOL-STYLE 潮流生活網">
+<meta property="article:publisher" content="https://www.facebook.com/cool.streetfashion/">
+<meta property="article:tag" content="RU味春捲">
+<meta property="article:section" content="酷娛樂">
+<meta property="article:published_time" content="2020-05-18T04:24:04+00:00">
+<meta property="article:modified_time" content="2020-05-18T04:25:20+00:00">
+<meta property="og:updated_time" content="2020-05-18T04:25:20+00:00">
+<meta property="og:image" content="https://cool-style.pixfs.net/cool/2020/05/27.png">
+<meta property="og:image:secure_url" content="https://cool-style.pixfs.net/cool/2020/05/27.png">
+<meta property="og:image:width" content="1000">
+<meta property="og:image:height" content="500">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="以動漫、電玩歌曲的鋼琴演奏聞名的知名網紅「RU味春捲」上週突破百萬訂閱，在喜迎如此盛大慶祝之時卻遭逢巨大爭議事件。前幾日在知名討論區「巴哈場外版」有名網友張貼一則慶祝 RuRu 破百萬訂閱的文章，除了恭喜之外也有不少網友暗諷了 RuRu 根本是靠「露奶」走紅，卻意外釣到本尊回覆「請問我哪時露奶了？」，更在該留言下暗酸同為動漫鋼琴台的「Pan Piano」靠奶吸引意淫人氣，卻也因為本尊帳號被釣出意外曝光多個討論區的小號，各種惡意言論與自洗人氣的行徑通通遭曝光！ 當天 RuRu 明顯遭到網友釣魚影響心情，原只是出面遏止網友的酸言酸語，沒想到他卻意外對著同類型的「Pan Piano」直接開噴，以「自己留言底下沒有沒水準的日本人」來暗諷對方靠著賣弄姿色騙取點閱與意淫留言，但出動個人帳號後不但被掀出帳號的 IP 位置，更連他其他的分身帳號都被全部挖出，先前自導自演洗人氣、狂罵競業的誇張行為映入眼簾，讓人不敢相信這就是平常影片內端莊的 RuRu。 &nbsp; 雖然不久後 RuRu 便發出聲明與粉絲與「Pan Piano」道歉，但卻將小號發言等行為全推到另名工作室成員小春身上，自己以本尊暗酸「Pan Piano」更是隻字不提，但沒想到前幾日慶祝百萬訂閱的文章卻因此讓他露餡，因為在該篇貼文中她曾透露該頻道全由她個人一手經營，分身帳號的解釋瞬間被打臉成藉口，許多網友也紛紛在道歉貼文下回覆表達不滿，認為 RuRu 將所有責任推到那位不知道存不存在的工作夥伴上非常不公平，好好的百萬訂閱也因為這起爭議事件蒙上一層陰影。 &nbsp; 在 Instagram 查看這則貼文 &nbsp; 大家好，我是RuRu 昨晚回頭看了這二天的文，才了解原來在各論壇的討論從未斷過，而其中有一些誤會，我想在這裡統一跟大家說明清楚： 首先，我只有一個PTT帳號、也只有一個巴哈帳號，我從未言語抨擊過他人。 而大家調查出跟我IP多次相同、發文間隔過短的帳號，是我其中一個團隊夥伴的帳號(小春)，早期的粉絲應該曾看過他參與開箱影片及遊戲實況。 我平常工作繁忙，連自己社群平台的訊息及留言都久久才回覆一次，直到昨晚看完網友整理的懶人包，才發現他長期在各論壇做了這麼多惡劣與抨擊他人的言論。 雖然這些言論不是出自於我，但我仍需要對整起事件負起責任。 我想在這裡跟Pan Piano及大家鄭重道歉，是我沒有即時注意到並且阻止夥 […]">
+<meta name="twitter:title" content="百萬訂閱網紅「RU味春捲」狠酸同業「靠露奶吸引人意淫」，被抓包分身帳號後稱「都是同事留言的」！ - COOL-STYLE 潮流生活網">
+<meta name="twitter:image" content="https://cool-style.pixfs.net/cool/2020/05/27.png">
+<script type="application/ld+json" class="yoast-schema-graph yoast-schema-graph--main">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"https:\/\/www.cool-style.com.tw\/wd2\/#website","url":"https:\/\/www.cool-style.com.tw\/wd2\/","name":"COOL-STYLE \u6f6e\u6d41\u751f\u6d3b\u7db2","potentialAction":{"@type":"SearchAction","target":"https:\/\/www.cool-style.com.tw\/wd2\/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https:\/\/www.cool-style.com.tw\/wd2\/archives\/522009#primaryimage","url":"https:\/\/cool-style.pixfs.net\/cool\/2020\/05\/27.png","width":1000,"height":500},{"@type":"WebPage","@id":"https:\/\/www.cool-style.com.tw\/wd2\/archives\/522009#webpage","url":"https:\/\/www.cool-style.com.tw\/wd2\/archives\/522009","inLanguage":"zh-TW","name":"\u767e\u842c\u8a02\u95b1\u7db2\u7d05\u300cRU\u5473\u6625\u6372\u300d\u72e0\u9178\u540c\u696d\u300c\u9760\u9732\u5976\u5438\u5f15\u4eba\u610f\u6deb\u300d\uff0c\u88ab\u6293\u5305\u5206\u8eab\u5e33\u865f\u5f8c\u7a31\u300c\u90fd\u662f\u540c\u4e8b\u7559\u8a00\u7684\u300d\uff01 - COOL-STYLE \u6f6e\u6d41\u751f\u6d3b\u7db2","isPartOf":{"@id":"https:\/\/www.cool-style.com.tw\/wd2\/#website"},"primaryImageOfPage":{"@id":"https:\/\/www.cool-style.com.tw\/wd2\/archives\/522009#primaryimage"},"datePublished":"2020-05-18T04:24:04+00:00","dateModified":"2020-05-18T04:25:20+00:00","author":{"@id":"https:\/\/www.cool-style.com.tw\/wd2\/#\/schema\/person\/ca93cb5ef1b8aa28412633d6e8a514ce"}},{"@type":["Person"],"@id":"https:\/\/www.cool-style.com.tw\/wd2\/#\/schema\/person\/ca93cb5ef1b8aa28412633d6e8a514ce","name":"LUI","sameAs":[]}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="amphtml" href="https://www.cool-style.com.tw/wd2/archives/522009/amp"><link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="https://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="訂閱《COOL-STYLE 潮流生活網》» 資訊提供" href="https://www.cool-style.com.tw/wd2/feed">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.cool-style.com.tw\/wd2\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.14"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="flexslider-css" href="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/flexslider.css" type="text/css" media="all">
+<link rel="stylesheet" id="justifiedgallery-css" href="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/justifiedGallery.css" type="text/css" media="all">
+<link rel="stylesheet" id="justifiedlightbox-css" href="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/magnific-popup.css" type="text/css" media="all">
+<link rel="stylesheet" id="gem_tf_style-css" href="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/main_style.css" type="text/css" media="all">
+<link rel="stylesheet" id="jquery_colorbox-css" href="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/colorbox-old.css" type="text/css" media="all">
+<link rel="stylesheet" id="gem_tf_responsive-css" href="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/responsive.css" type="text/css" media="all">
+<link rel="stylesheet" id="fa-css" href="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/font-awesome.css" type="text/css" media="all">
+<link rel="stylesheet" id="custom_css-css" href="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/custom.css" type="text/css" media="all">
+<link rel="stylesheet" id="redux-google-fonts-gem_tf_option-css" href="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/css.css" type="text/css" media="all">
+<script type="text/javascript" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/jquery_002.js"></script>
+<script type="text/javascript" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/jquery-migrate.js"></script>
+<link rel="https://api.w.org/" href="https://www.cool-style.com.tw/wd2/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.cool-style.com.tw/wd2/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.cool-style.com.tw/wd2/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.9.14">
+<link rel="shortlink" href="https://www.cool-style.com.tw/wd2/?p=522009">
+<link rel="alternate" type="application/json+oembed" href="https://www.cool-style.com.tw/wd2/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.cool-style.com.tw%2Fwd2%2Farchives%2F522009">
+<link rel="alternate" type="text/xml+oembed" href="https://www.cool-style.com.tw/wd2/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.cool-style.com.tw%2Fwd2%2Farchives%2F522009&amp;format=xml">
+<link rel="shortcut icon" href="https://cool-style.pixfs.net/cool/2019/09/favicon.jpg">
+<link rel="apple-touch-icon" href="https://cool-style.pixfs.net/cool/2019/09/180x180.jpg">
+<meta name="msapplication-TileImage" content="https://cool-style.pixfs.net/cool/2019/09/144x144.jpg">
+            <style type="text/css" media="all">
+             
+
+                
+                .top-bar, #shadowfiend-gallery-slider .flex-control-paging li a.flex-active, .main-nav #main-menu .menu > li > a:hover, 
+                .module-main-slider .slider-wrap .slides .post-info .post-cat a, .main-nav #main-menu .menu > li.current-menu-item > a,
+                .grid-1-type .post-cat a, .shadowfiend-carousel-wrap .slides .post-cat a,
+                .classic-blog-style .post-cat a, 
+                .large-blog-style .post-cat a, 
+                .module-main-grid .post-cat a,
+                .module-post-two .large-post .post-cat a,
+                .module-post-three .large-post .post-cat a,
+                .type-in .post-cat a,
+                .shadowfiend-carousel-large-wrap .slides .post-cat a, .rating-wrap,
+                .singletop .post-cat a, h3.ticker-header, .post-cat-main-slider, .module-main-slider .carousel-ctrl .slides li.flex-active-slide,
+                .ajax-load-btn span, .loadmore-button .ajax-load-btn, .s-tags a:hover,
+                .post-page-links > span, .post-page-links a span:hover, #comment-submit, .shadowfiend-review-box .shadowfiend-overlay span,
+                .shadowfiend-score-box, #pagination .current, .widget_archive ul li:hover, .widget_categories ul li:hover,
+                .widget_tag_cloud a:hover, .widget .searchform-wrap .search-icon,
+                .shadowfiend-header .main-title h3, .footer .shadowfiend-header .main-title h3, input[type="submit"], .article-content input[type="submit"]
+                {background-color: #dd0000}
+                
+                
+                .shadowfiend-author-box .author-info .shadowfiend-author-page-contact a:hover, .error-number h1, #shadowfiend-404-wrap .shadowfiend-error-title,
+                .page-404-wrap .redirect-home, .article-content p a, .read-more:hover, .sticky-post-mark
+                    {color: #dd0000}
+                
+                ::selection
+                {background-color: #dd0000}
+                ::-moz-selection 
+                {background-color: #dd0000}
+                
+                body::-webkit-scrollbar-thumb
+                {background-color: #dd0000}
+                
+                .article-content blockquote, .textwidget blockquote, #shadowfiend-gallery-slider .flex-control-paging li a.flex-active,
+                .loadmore-button .ajax-load-btn, .widget_flickr li a:hover img, .post-page-links > span, .post-page-links a span:hover,
+                #comment-submit, #pagination .current, .widget_archive ul li:hover, .widget_categories ul li:hover,
+                .widget_tag_cloud a:hover, input[type="submit"], .article-content input[type="submit"]
+                {border-color: #dd0000}
+                 
+                
+        
+                                .main-nav .header-inner, #main-mobile-menu, .shadowfiend-mega-menu, .shadowfiend-mega-menu .shadowfiend-sub-sub-menu, .shadowfiend-dropdown-menu,
+                    .shadowfiend-dropdown-menu .shadowfiend-sub-sub-menu, #main-search .searchform-wrap > input,
+                    .footer, .footer .shadowfiend-header .main-title h3, .shadowfiend-header .main-title, .footer .shadowfiend-header .main-title
+                    {background-color: #000000}
+                    
+                               
+                    {color: #000000}
+                    
+                    .footer .widget-posts-list ul li.type-in
+                    {border-color: #000000}
+                
+                
+                
+                        </style>
+            		<style type="text/css" id="wp-custom-css">
+			.single-page .article-content p, .single-page .article-content li, .single-page .article-content h1, .single-page .article-content h2, .single-page .article-content h3, .single-page .article-content h4, .single-page .article-content h5 {
+    line-height: 1.8;
+}
+.shadowfiend-site-container {
+	width: 100%;
+}
+
+.uris-slider-title {
+	display: none;
+}
+
+.sp-buttons .sp-button {
+	display: none;	
+}
+
+#contact-us {
+	width: 100%;
+	text-align: center;
+	padding: 30px;
+	font-size: 1.5em;
+}
+
+.header {
+	display: none;
+}
+
+.site-container.boxed {
+	margin-top: 0px;
+}
+
+#menu-item-494060 a, 
+#menu-item-365687 a {
+  height: 50px;
+	background-color: #000 !important;
+}
+
+#menu-item-494060 img,
+#menu-item-365687 img {
+	height: 50px;
+	width: auto;
+}
+
+#footer-social {
+	list-style: none;
+	margin: 0;
+}
+
+#footer-social li {
+	display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+}
+
+@media screen and (max-width: 1140px) {	
+	html {
+		margin-top: 0px !important;
+	}
+	#main-mobile-menu .menu-item-home {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (max-width: 599px) {
+	.header-wrap {
+		position: fixed;
+		z-index: 999;
+	}
+	.main-body {
+		top: 50px;
+	}
+	.shadowfiend-header .main-title h3 {
+		font-size: 18px;
+	}
+	.shadowfiend-second-half {
+		display:none;
+	}
+	.main-nav > .shadowfiend-site-container {
+		padding: 0px;
+	}
+	.footer-sidebar {
+		margin-left: 0px;
+	}
+	#main-mobile-menu .menu-item-home {
+		display: none;
+	}
+	.fullwidth-section.top .shadowfiend-ticker-module.widget:first-child + .widget, .widget {
+		margin-top: 20px;
+	}
+	.content-sb-section {
+		margin-top: 20px;
+	}
+	.ticker-wrapper {
+		padding: 8px 0px;
+		background-color: #fff;
+	}
+}
+		</style>
+	<style type="text/css" title="dynamic-css" class="options-output">.main-nav #main-menu .menu > li > a, .top-nav ul.menu > li, .shadowfiend-mega-menu .shadowfiend-sub-menu > li > a,
+                            .shadowfiend-dropdown-menu .shadowfiend-sub-menu > li > a{font-family:Roboto;font-weight:700;font-style:normal;}.post-meta, .post-cat, .meta-bottom .post-author, .rating-wrap{font-family:Lato;font-weight:400;font-style:normal;}h1, h2, h3, h4, h5, h5, h6, .post-title , .grid-container .post-info .post-title , .post-title.post-title-masonry, .post-nav-link-title h3,
+                            .recentcomments a:last-child, ul.ticker li h2 a, .header .logo.logo-text h1, .widget_recent_entries a, .loadmore-button .ajax-load-btn, .widget_nav_menu > div > ul > li{font-family:"Microsoft JhengHei";font-weight:700;font-style:normal;}.shadowfiend-header .shadowfiend-title h3, .shadowfiend-header .main-title h3, .footer .shadowfiend-header .main-title h3{font-family:"Microsoft JhengHei";font-weight:700;font-style:normal;}body, textarea, input, p, 
+                            .entry-excerpt, .comment-text, .comment-author, .article-content,
+                            .comments-area, .tag-list, .shadowfiend-author-meta h3 {font-family:Lato;font-weight:400;font-style:normal;}</style><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-53JW78V');</script>
+<!-- End Google Tag Manager -->
+    <!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"GuBio1IWNa10S+", domain:"cool-style.com.tw",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://certify.alexametrics.com/atrk.gif?account=GuBio1IWNa10S+" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '599172447142711');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=599172447142711&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+<!-- start: trek sdk -->
+<script>
+  (function(w, d, s, src, n) {
+    var js, ajs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(n)) return;
+    js = d.createElement(s); js.id = n;
+    w[n] = w[n] || function() { (w[n].q = w[n].q || []).push(arguments) }; w[n].l = 1 * new Date();
+    js.async = 1; js.src = src; ajs.parentNode.insertBefore(js, ajs)
+  })(window, document, 'script', 'https://tkportal.aotter.net/public/3.1.0/sdk.js', 'AotterTrek');
+  AotterTrek('init', 'hACx+h3QLbIooPWBOHuw');
+</script>
+<!-- end: trek sdk -->
+<link rel="stylesheet" href="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
+<link rel="stylesheet" href="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
+<script>var adGeekIsAdvertorial = '0';</script>
+<script>var newArticle = '1';</script>
+<link rel="stylesheet" href="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/owl.css">
+<link rel="stylesheet" href="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/owl_002.css">
+<script src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/owl.js"></script>
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53JW78V" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+        <div class="site-container boxed">
+    	<!-- page-wrap open-->
+    	<div class="page-wrap clear-fix">
+
+    		<!-- header-wrap open -->
+  		            <div class="header-wrap header-left header-black">
+        
+                        <!-- header open -->
+            <div class="header">
+                <div class="header-inner shadowfiend-site-container">
+        			<!-- logo open -->
+                     
+                    <div class="logo logo-text">
+                        <h1>
+                            <a href="https://www.cool-style.com.tw/wd2">
+                                COOL-STYLE 潮流生活網                            </a>
+                        </h1>
+        			</div>
+                                                        </div>   			
+            </div>
+            <!-- header close -->
+            
+			<!-- nav open -->
+			<nav class="main-nav">
+                <div class="shadowfiend-site-container">
+                    <div class="header-inner clear-fix">
+                        <div class="mobile">
+                            <i class="fa fa-bars"></i>
+                        </div>
+                        <div class="site-logo">
+                            <a href="https://www.cool-style.com.tw/wd2/"><img src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/logo.png" height="50"></a>
+                        </div>
+                        <div id="main-menu" class="menu-cool-menu20200213-container"><ul id="menu-cool-menu20200213" class="menu"><li id="menu-item-494060" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-494060 has-image"><a href="http://www.cool-style.com.tw/wd2"><img src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/cool-logo-w2x1-300x168.png" class="attachment-full size-full wp-post-image" alt="Home" title="Home" width="300" height="168"></a></li>
+<li id="menu-item-493988" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-493988"><a href="https://www.cool-style.com.tw/wd2/archives/category/feature">酷嚴選</a><div class="shadowfiend-dropdown-menu"><ul class="shadowfiend-sub-menu">	<li id="menu-item-493990" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493990"><a href="https://www.cool-style.com.tw/wd2/archives/category/feature/%e7%8e%a9%e9%85%b7%e5%ad%90%e5%bc%9f">玩酷子弟</a></li>
+	<li id="menu-item-493992" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493992"><a href="https://www.cool-style.com.tw/wd2/archives/category/feature/%e9%80%b1%e4%ba%94%e7%90%83%e9%9e%8b%e6%bf%80%e6%8e%a8">週五球鞋激推</a></li>
+	<li id="menu-item-493991" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493991"><a href="https://www.cool-style.com.tw/wd2/archives/category/feature/%e7%a9%bf%e6%90%ad%e8%ac%9b%e5%a0%82">穿搭講堂</a></li>
+	<li id="menu-item-493995" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493995"><a href="https://www.cool-style.com.tw/wd2/archives/category/feature/%e5%a6%b9%e5%ad%90%e8%a1%a3%e6%ab%83">妹子衣櫃</a></li>
+	<li id="menu-item-493989" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493989"><a href="https://www.cool-style.com.tw/wd2/archives/category/feature/%e6%bd%ae%e6%b5%81%e7%a4%be%e8%ab%96">潮流社論</a></li>
+	<li id="menu-item-493993" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493993"><a href="https://www.cool-style.com.tw/wd2/archives/category/feature/%e9%80%b1%e6%9c%ab%e6%bd%ae%e7%b4%9a%e5%ae%85">週末潮級宅</a></li>
+	<li id="menu-item-493994" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493994"><a href="https://www.cool-style.com.tw/wd2/archives/category/feature/cool-girl-feature">COOL GIRL</a></li>
+</ul></div></li>
+<li id="menu-item-493996" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493996"><a href="https://www.cool-style.com.tw/wd2/archives/category/sneaker">酷鞋頭</a></li>
+<li id="menu-item-493997" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493997"><a href="https://www.cool-style.com.tw/wd2/archives/category/fahsion">酷潮流</a></li>
+<li id="menu-item-493998" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-493998"><a href="https://www.cool-style.com.tw/wd2/archives/category/entertainment-2">酷娛樂</a><div class="shadowfiend-dropdown-menu"><ul class="shadowfiend-sub-menu">	<li id="menu-item-494000" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-494000"><a href="https://www.cool-style.com.tw/wd2/archives/category/entertainment-2/%e9%9f%b3%e6%a8%82">音樂</a></li>
+	<li id="menu-item-494002" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-494002"><a href="https://www.cool-style.com.tw/wd2/archives/category/entertainment-2/%e5%bd%b1%e8%a6%96">影視</a></li>
+	<li id="menu-item-493999" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493999"><a href="https://www.cool-style.com.tw/wd2/archives/category/entertainment-2/%e6%98%8e%e6%98%9f">明星</a></li>
+	<li id="menu-item-494001" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-494001"><a href="https://www.cool-style.com.tw/wd2/archives/category/entertainment-2/youtuber">Youtuber</a></li>
+</ul></div></li>
+<li id="menu-item-494005" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-494005"><a href="https://www.cool-style.com.tw/wd2/archives/category/lifestyle-2">酷生活</a><div class="shadowfiend-dropdown-menu"><ul class="shadowfiend-sub-menu">	<li id="menu-item-494004" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-494004"><a href="https://www.cool-style.com.tw/wd2/archives/category/lifestyle-2/%e5%90%83%e5%96%9d%e7%8e%a9%e6%a8%82">吃喝玩樂</a></li>
+	<li id="menu-item-494003" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-494003"><a href="https://www.cool-style.com.tw/wd2/archives/category/lifestyle-2/3c%e5%8b%95%e6%bc%ab">3C動漫</a></li>
+	<li id="menu-item-494007" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-494007"><a href="https://www.cool-style.com.tw/wd2/archives/category/lifestyle-2/%e7%8e%a9%e5%85%b7%e5%85%ac%e4%bb%94">玩具公仔</a></li>
+	<li id="menu-item-494009" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-494009"><a href="https://www.cool-style.com.tw/wd2/archives/category/lifestyle-2/%e9%ab%94%e8%82%b2%e8%aa%b2">體育課</a></li>
+	<li id="menu-item-494006" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-494006"><a href="https://www.cool-style.com.tw/wd2/archives/category/lifestyle-2/%e6%b1%bd%e6%a9%9f%e8%bb%8a">汽機車</a></li>
+	<li id="menu-item-494008" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-494008"><a href="https://www.cool-style.com.tw/wd2/archives/category/lifestyle-2/%e7%b4%85%e7%87%88%e5%8d%80">紅燈區</a></li>
+</ul></div></li>
+<li id="menu-item-494010" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-494010"><a href="https://www.cool-style.com.tw/wd2/archives/category/news-2">酷糖果爸爸</a></li>
+<li id="menu-item-494011" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-494011"><a href="https://coolbuy.91app.com/v2/official">COOL BUY</a></li>
+<li id="menu-item-494054" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-494054"><a href="https://www.youtube.com/user/CoolStyleTV/videos">COOL TV</a></li>
+</ul></div><div id="main-mobile-menu" class="menu-cool-menu20200213-container"><ul id="menu-cool-menu20200213-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-494060 has-image"><a href="http://www.cool-style.com.tw/wd2"><img src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/cool-logo-w2x1-300x168.png" class="attachment-full size-full wp-post-image" alt="Home" title="Home" width="300" height="168"></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-493988"><div class="expand"><i class="fa fa-angle-down"></i></div><a href="https://www.cool-style.com.tw/wd2/archives/category/feature">酷嚴選</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493990"><a href="https://www.cool-style.com.tw/wd2/archives/category/feature/%e7%8e%a9%e9%85%b7%e5%ad%90%e5%bc%9f">玩酷子弟</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493992"><a href="https://www.cool-style.com.tw/wd2/archives/category/feature/%e9%80%b1%e4%ba%94%e7%90%83%e9%9e%8b%e6%bf%80%e6%8e%a8">週五球鞋激推</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493991"><a href="https://www.cool-style.com.tw/wd2/archives/category/feature/%e7%a9%bf%e6%90%ad%e8%ac%9b%e5%a0%82">穿搭講堂</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493995"><a href="https://www.cool-style.com.tw/wd2/archives/category/feature/%e5%a6%b9%e5%ad%90%e8%a1%a3%e6%ab%83">妹子衣櫃</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493989"><a href="https://www.cool-style.com.tw/wd2/archives/category/feature/%e6%bd%ae%e6%b5%81%e7%a4%be%e8%ab%96">潮流社論</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493993"><a href="https://www.cool-style.com.tw/wd2/archives/category/feature/%e9%80%b1%e6%9c%ab%e6%bd%ae%e7%b4%9a%e5%ae%85">週末潮級宅</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493994"><a href="https://www.cool-style.com.tw/wd2/archives/category/feature/cool-girl-feature">COOL GIRL</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493996"><a href="https://www.cool-style.com.tw/wd2/archives/category/sneaker">酷鞋頭</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493997"><a href="https://www.cool-style.com.tw/wd2/archives/category/fahsion">酷潮流</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-493998"><div class="expand"><i class="fa fa-angle-down"></i></div><a href="https://www.cool-style.com.tw/wd2/archives/category/entertainment-2">酷娛樂</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-494000"><a href="https://www.cool-style.com.tw/wd2/archives/category/entertainment-2/%e9%9f%b3%e6%a8%82">音樂</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-494002"><a href="https://www.cool-style.com.tw/wd2/archives/category/entertainment-2/%e5%bd%b1%e8%a6%96">影視</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-493999"><a href="https://www.cool-style.com.tw/wd2/archives/category/entertainment-2/%e6%98%8e%e6%98%9f">明星</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-494001"><a href="https://www.cool-style.com.tw/wd2/archives/category/entertainment-2/youtuber">Youtuber</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-494005"><div class="expand"><i class="fa fa-angle-down"></i></div><a href="https://www.cool-style.com.tw/wd2/archives/category/lifestyle-2">酷生活</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-494004"><a href="https://www.cool-style.com.tw/wd2/archives/category/lifestyle-2/%e5%90%83%e5%96%9d%e7%8e%a9%e6%a8%82">吃喝玩樂</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-494003"><a href="https://www.cool-style.com.tw/wd2/archives/category/lifestyle-2/3c%e5%8b%95%e6%bc%ab">3C動漫</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-494007"><a href="https://www.cool-style.com.tw/wd2/archives/category/lifestyle-2/%e7%8e%a9%e5%85%b7%e5%85%ac%e4%bb%94">玩具公仔</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-494009"><a href="https://www.cool-style.com.tw/wd2/archives/category/lifestyle-2/%e9%ab%94%e8%82%b2%e8%aa%b2">體育課</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-494006"><a href="https://www.cool-style.com.tw/wd2/archives/category/lifestyle-2/%e6%b1%bd%e6%a9%9f%e8%bb%8a">汽機車</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-494008"><a href="https://www.cool-style.com.tw/wd2/archives/category/lifestyle-2/%e7%b4%85%e7%87%88%e5%8d%80">紅燈區</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-494010"><a href="https://www.cool-style.com.tw/wd2/archives/category/news-2">酷糖果爸爸</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-494011"><a href="https://coolbuy.91app.com/v2/official">COOL BUY</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-494054"><a href="https://www.youtube.com/user/CoolStyleTV/videos">COOL TV</a></li>
+</ul></div>                            
+                        <div id="main-search">
+    				        <form action="https://www.cool-style.com.tw/wd2/" id="searchform" method="get" target="_blank">
+                                <div class="searchform-wrap">
+                                    <input type="text" name="s" id="s" value="Search" onfocus='if (this.value == "Search") { this.value = ""; }' onblur='if (this.value == "") { this.value = "Search"; }'>
+                                <div class="search-icon">
+                                    <i class="fa fa-search"></i>
+                                    <i class="fa fa-times"></i>
+                                </div>
+                                </div>
+                            </form>
+                        </div><!--main-search-->
+                    </div>
+                </div><!-- main-nav-inner -->
+            
+			</nav>
+			<!-- nav close -->
+
+        </div>
+                <!-- header-wrap close -->
+
+    		<!-- backtop open -->
+    		                <div id="back-top" style="bottom: 0px;"><i class="fa fa-angle-up"></i></div>
+                		<!-- backtop close -->
+
+    		<!-- MAIN BODY OPEN -->
+    		<div class="main-body shadowfiend-site-container clear-fix">
+    
+                <div class="single-page clear-fix">
+            <div class="article-content-wrap">
+                  
+                <div class="content-sb-section clear-fix">
+                    <div class="main ">
+                        <div class="singletop">
+    						<div class="post-cat">
+    							<a href="https://www.cool-style.com.tw/wd2/archives/category/entertainment-2/youtuber">Youtuber</a><a href="https://www.cool-style.com.tw/wd2/archives/category/entertainment-2">酷娛樂</a>    						</div>					
+                            <h1 class="post-title">
+    							百萬訂閱網紅「RU味春捲」狠酸同業「靠露奶吸引人意淫」，被抓包分身帳號後稱「都是同事留言的」！        					</h1>     
+                            <div class="post-meta clear-fix">      
+                                <div class="post-author">
+                                    <span class="avatar">
+                                        <i class="fa fa-user"></i>
+                                    </span>
+                                    <a href="https://www.cool-style.com.tw/wd2/archives/author/71116" title="「LUI」的文章" rel="author">LUI</a>                            
+                                </div>                                                
+                                <div class="date">
+                                    <span><i class="fa fa-clock-o"></i></span>
+                    				2020-05-18                    			</div>		
+                                <!--<div class="meta-comment">
+                        			<span><i class="fa fa-comments-o"></i></span>
+                        			<a href="https://www.cool-style.com.tw/wd2/archives/522009#comments">0</a>
+                                </div>-->
+                    		</div>   
+                        </div>
+                                                                                                <div class="article-content">
+                                                        <p>以動漫、電玩歌曲的鋼琴演奏
+聞名的知名網紅「RU味春捲」上週突破百萬訂閱，在喜迎如此盛大慶祝之時卻遭逢巨大爭議事件。前幾日在知名討論區「巴哈場外版」有名網友張貼一則慶祝 
+RuRu 破百萬訂閱的文章，除了恭喜之外也有不少網友暗諷了 RuRu 
+根本是靠「露奶」走紅，卻意外釣到本尊回覆「請問我哪時露奶了？」，更在該留言下暗酸同為動漫鋼琴台的「Pan 
+Piano」靠奶吸引意淫人氣，卻也因為本尊帳號被釣出意外曝光多個討論區的小號，各種惡意言論與自洗人氣的行徑通通遭曝光！<br>
+<img class="size-large wp-image-522043 aligncenter" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/67814824_726105381136699_7205845946562488581_n-819x1024.png" alt="" srcset="https://cool-style.pixfs.net/cool/2020/05/67814824_726105381136699_7205845946562488581_n-819x1024.png 819w, https://cool-style.pixfs.net/cool/2020/05/67814824_726105381136699_7205845946562488581_n-240x300.png 240w, https://cool-style.pixfs.net/cool/2020/05/67814824_726105381136699_7205845946562488581_n-768x960.png 768w, https://cool-style.pixfs.net/cool/2020/05/67814824_726105381136699_7205845946562488581_n-500x625.png 500w, https://cool-style.pixfs.net/cool/2020/05/67814824_726105381136699_7205845946562488581_n-400x500.png 400w, https://cool-style.pixfs.net/cool/2020/05/67814824_726105381136699_7205845946562488581_n-560x700.png 560w, https://cool-style.pixfs.net/cool/2020/05/67814824_726105381136699_7205845946562488581_n.png 937w" sizes="(max-width: 819px) 100vw, 819px" width="819" height="1024"><img class="size-large wp-image-522044 aligncenter" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/87596830_150856022655858_6984036462152804467_n-819x1024.png" alt="" srcset="https://cool-style.pixfs.net/cool/2020/05/87596830_150856022655858_6984036462152804467_n-819x1024.png 819w, https://cool-style.pixfs.net/cool/2020/05/87596830_150856022655858_6984036462152804467_n-240x300.png 240w, https://cool-style.pixfs.net/cool/2020/05/87596830_150856022655858_6984036462152804467_n-768x960.png 768w, https://cool-style.pixfs.net/cool/2020/05/87596830_150856022655858_6984036462152804467_n-500x625.png 500w, https://cool-style.pixfs.net/cool/2020/05/87596830_150856022655858_6984036462152804467_n-400x500.png 400w, https://cool-style.pixfs.net/cool/2020/05/87596830_150856022655858_6984036462152804467_n-560x700.png 560w, https://cool-style.pixfs.net/cool/2020/05/87596830_150856022655858_6984036462152804467_n.png 1080w" sizes="(max-width: 819px) 100vw, 819px" width="819" height="1024"> <img class="size-large wp-image-522046 aligncenter" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/95955869_247523669824926_6621087858803421039_n-1024x1024.png" alt="" srcset="https://cool-style.pixfs.net/cool/2020/05/95955869_247523669824926_6621087858803421039_n-1024x1024.png 1024w, https://cool-style.pixfs.net/cool/2020/05/95955869_247523669824926_6621087858803421039_n-150x150.png 150w, https://cool-style.pixfs.net/cool/2020/05/95955869_247523669824926_6621087858803421039_n-300x300.png 300w, https://cool-style.pixfs.net/cool/2020/05/95955869_247523669824926_6621087858803421039_n-768x767.png 768w, https://cool-style.pixfs.net/cool/2020/05/95955869_247523669824926_6621087858803421039_n-500x500.png 500w, https://cool-style.pixfs.net/cool/2020/05/95955869_247523669824926_6621087858803421039_n-400x400.png 400w, https://cool-style.pixfs.net/cool/2020/05/95955869_247523669824926_6621087858803421039_n-560x559.png 560w, https://cool-style.pixfs.net/cool/2020/05/95955869_247523669824926_6621087858803421039_n.png 1080w" sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="1024"></p>
+<hr class="hr-text" data-content="[贊助]內文未完請向下捲動">
+<div class="ad-slot"></div>
+<hr class="hr-text" data-content="">
+<p>當天 RuRu 明顯遭到網友釣魚影響心情，原只是出面遏止網友的酸言酸語，沒想到他卻意外對著同類型的「Pan 
+Piano」直接開噴，以「自己留言底下沒有沒水準的日本人」來暗諷對方靠著賣弄姿色騙取點閱與意淫留言，但出動個人帳號後不但被掀出帳號的 IP 
+位置，更連他其他的分身帳號都被全部挖出，先前自導自演洗人氣、狂罵競業的誇張行為映入眼簾，讓人不敢相信這就是平常影片內端莊的 RuRu。</p>
+<p><img class="size-full wp-image-522030 aligncenter" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/z1QhFF8.jfif" alt="" srcset="https://cool-style.pixfs.net/cool/2020/05/z1QhFF8.jpg 700w, https://cool-style.pixfs.net/cool/2020/05/z1QhFF8-300x272.jpg 300w, https://cool-style.pixfs.net/cool/2020/05/z1QhFF8-500x454.jpg 500w, https://cool-style.pixfs.net/cool/2020/05/z1QhFF8-400x363.jpg 400w, https://cool-style.pixfs.net/cool/2020/05/z1QhFF8-560x508.jpg 560w" sizes="(max-width: 700px) 100vw, 700px" width="700" height="635"></p>
+<p><img class="size-full wp-image-522049 aligncenter" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/poE1x6I.png" alt="" srcset="https://cool-style.pixfs.net/cool/2020/05/poE1x6I.png 700w, https://cool-style.pixfs.net/cool/2020/05/poE1x6I-300x60.png 300w, https://cool-style.pixfs.net/cool/2020/05/poE1x6I-500x99.png 500w, https://cool-style.pixfs.net/cool/2020/05/poE1x6I-400x79.png 400w, https://cool-style.pixfs.net/cool/2020/05/poE1x6I-560x111.png 560w" sizes="(max-width: 700px) 100vw, 700px" width="700" height="139"></p>
+<p>&nbsp;</p>
+<p><img class="size-large wp-image-522031 aligncenter" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/FaOAYI4.png" alt="" srcset="https://cool-style.pixfs.net/cool/2020/05/FaOAYI4.png 614w, https://cool-style.pixfs.net/cool/2020/05/FaOAYI4-300x79.png 300w, https://cool-style.pixfs.net/cool/2020/05/FaOAYI4-500x132.png 500w, https://cool-style.pixfs.net/cool/2020/05/FaOAYI4-400x106.png 400w, https://cool-style.pixfs.net/cool/2020/05/FaOAYI4-560x148.png 560w" sizes="(max-width: 614px) 100vw, 614px" width="614" height="162"> <img class="size-large wp-image-522032 aligncenter" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/Z0e2lXe.png" alt="" srcset="https://cool-style.pixfs.net/cool/2020/05/Z0e2lXe.png 947w, https://cool-style.pixfs.net/cool/2020/05/Z0e2lXe-300x135.png 300w, https://cool-style.pixfs.net/cool/2020/05/Z0e2lXe-768x345.png 768w, https://cool-style.pixfs.net/cool/2020/05/Z0e2lXe-500x225.png 500w, https://cool-style.pixfs.net/cool/2020/05/Z0e2lXe-400x180.png 400w, https://cool-style.pixfs.net/cool/2020/05/Z0e2lXe-560x252.png 560w" sizes="(max-width: 947px) 100vw, 947px" width="947" height="426"> <img class="size-large wp-image-522033 aligncenter" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/6LEbdDI.jfif" alt="" srcset="https://cool-style.pixfs.net/cool/2020/05/6LEbdDI.jpg 973w, https://cool-style.pixfs.net/cool/2020/05/6LEbdDI-300x83.jpg 300w, https://cool-style.pixfs.net/cool/2020/05/6LEbdDI-768x212.jpg 768w, https://cool-style.pixfs.net/cool/2020/05/6LEbdDI-500x138.jpg 500w, https://cool-style.pixfs.net/cool/2020/05/6LEbdDI-400x111.jpg 400w, https://cool-style.pixfs.net/cool/2020/05/6LEbdDI-560x155.jpg 560w" sizes="(max-width: 973px) 100vw, 973px" width="973" height="269"> <img class="size-large wp-image-522034 aligncenter" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/uAlJTFy.png" alt="" srcset="https://cool-style.pixfs.net/cool/2020/05/uAlJTFy.png 754w, https://cool-style.pixfs.net/cool/2020/05/uAlJTFy-300x196.png 300w, https://cool-style.pixfs.net/cool/2020/05/uAlJTFy-500x327.png 500w, https://cool-style.pixfs.net/cool/2020/05/uAlJTFy-400x262.png 400w, https://cool-style.pixfs.net/cool/2020/05/uAlJTFy-560x366.png 560w" sizes="(max-width: 754px) 100vw, 754px" width="754" height="493"> 雖然不久後 RuRu 便發出聲明與粉絲與「Pan Piano」道歉，但卻將小號發言等行為全推到另名工作室成員小春身上，<strong>自己以本尊暗酸「Pan Piano」更是隻字不提</strong>，
+但沒想到前幾日慶祝百萬訂閱的文章卻因此讓他露餡，因為在該篇貼文中她曾透露該頻道全由她個人一手經營，分身帳號的解釋瞬間被打臉成藉口，許多網友也紛紛
+在道歉貼文下回覆表達不滿，認為 RuRu 將所有責任推到那位不知道存不存在的工作夥伴上非常不公平，好好的百萬訂閱也因為這起爭議事件蒙上一層陰影。</p>
+<iframe class="instagram-media instagram-media-rendered" id="instagram-embed-0" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/a.htm" allowtransparency="true" allowfullscreen="true" data-instgrm-payload-id="instagram-media-payload-0" scrolling="no" style="background: white none repeat scroll 0% 0%; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;" height="1552" frameborder="0"></iframe>
+<p><script async="" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/embed.js"></script></p>
+<iframe class="instagram-media instagram-media-rendered" id="instagram-embed-1" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/a_002.htm" allowtransparency="true" allowfullscreen="true" data-instgrm-payload-id="instagram-media-payload-1" scrolling="no" style="background: white none repeat scroll 0% 0%; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;" height="1729" frameborder="0"></iframe>
+<p><script async="" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/embed.js"></script></p>
+<p>&nbsp;</p>
+<hr class="hr-text" data-content="[贊助]內文未完請向下捲動">
+<div class="ad-slot"></div>
+<hr class="hr-text" data-content="">
+<p>&nbsp;</p>
+                                                    </div>
+                            <!-- TAGS -->
+                        <div class="s-tags"><span>Tags</span><a href="https://www.cool-style.com.tw/wd2/archives/tag/ru%e5%91%b3%e6%98%a5%e6%8d%b2" title="View all posts tagged RU味春捲">RU味春捲</a></div>    <!-- SHARE BOX -->
+                                                                                            
+                                                        <!-- NAV -->
+                         
+                                <div class="s-post-nav clear-fix"><div class="nav-btn nav-prev"><div class="nav-title clear-fix"><span class="icon"><i class="fa fa-long-arrow-left"></i></span><span>Previous Article</span><h3><a href="https://www.cool-style.com.tw/wd2/archives/522047">兩款重磅聯名再來！ESSENTIALS x CONVERSE Chuck 70「官網補貨日期公開」！</a></h3></div></div><div class="nav-btn nav-next"><div class="nav-title clear-fix"><span class="icon"><i class="fa fa-long-arrow-right"></i></span><span>Next Article</span><h3><a href="https://www.cool-style.com.tw/wd2/archives/521978">《上氣》定裝照疑似曝光？引起 PTT 網友熱議：「變疝氣了…」</a></h3></div></div></div>                                                        <!-- AUTHOR BOX -->
+                                                                        <div class="shadowfiend-author-box clear-fix" style="display:none"><div class="shadowfiend-author-avatar"><a href="https://www.cool-style.com.tw/wd2/archives/author/71116"></a></div><div class="author-info" itemprop="author"><h3><a href="https://www.cool-style.com.tw/wd2/archives/author/71116">LUI</a></h3></div></div><!-- close author-infor-->                                                <meta itemprop="author" content="LUI"><meta itemprop="headline " content="百萬訂閱網紅「RU味春捲」狠酸同業「靠露奶吸引人意淫」，被抓包分身帳號後稱「都是同事留言的」！"><meta itemprop="datePublished" content="2020-05-18T12:24:04+00:00"><meta itemprop="image" content="https://cool-style.pixfs.net/cool/2020/05/27.png"><meta itemprop="interactionCount" content="UserComments:0">    <!-- RELATED POST -->
+                            <!-- COMMENT BOX -->
+                                            </div>
+                    <!-- Sidebar -->
+                                            <!--<home sidebar widget>-->
+    		<div class="sidebar">
+            <div class="sidebar-wrap ">
+                <div class="sidebar-wrap-inner">
+                    <aside id="custom_html-6" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><!-- --></div></aside>  
+                </div>	
+            </div>
+		</div>
+    <!--</home sidebar widget>-->                                    </div>
+            </div>
+        </div>
+            </div>
+    		<!-- MAIN BODY CLOSE -->
+    		<!-- FOOTER OPEN -->
+                		<div class="footer ">
+                                                    <div class="footer-content shadowfiend-site-container clear-fix">
+                                        <div class="footer-sidebar footer2">
+                    <aside id="custom_html-3" class="widget_text widget widget_custom_html"><div class="shadowfiend-header"><div class="main-title"><h3>編輯團隊</h3></div></div><div class="textwidget custom-html-widget"><ul id="aboutus_block" class="clear-fix">
+<!--<li>
+<div class="thumb">
+	<a target="__blank" href="https://www.cool-style.com.tw/wd2/archives/author/deion_chao"><img src="https://www.cool-style.com.tw/wd2/wp-content/themes/gem_tf/images/author/20190910/1.jpg" alt="">
+		<p class="author">總編輯</p>
+		<p class="author">DEION CHAO</p>
+	</a>
+</div>
+</li>-->
+<li>
+<div class="thumb">
+	<a target="__blank" href="https://www.cool-style.com.tw/wd2/archives/author/vic"><img src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/2.jfif" alt="">
+		<p class="author">副總編輯</p>
+		<p class="author">VICTORIA</p>
+	</a>
+</div>
+</li>
+<li>
+<div class="thumb">
+	<a target="__blank" href="https://www.cool-style.com.tw/wd2/archives/author/eason_hsu"><img src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/3.jfif" alt="">
+		<p class="author">副總編輯</p>
+		<p class="author">EASON</p>
+	</a>
+</div>
+</li>
+<li>
+<div class="thumb">
+	<a target="__blank" href="https://www.cool-style.com.tw/wd2/archives/author/71060"><img src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/4.jfif" alt="">
+		<p class="author">影音主編</p>
+		<p class="author">WORLD PEACE</p>
+	</a>
+</div>
+</li>
+<li>
+<div class="thumb">
+	<a target="__blank" href="https://www.cool-style.com.tw/wd2/archives/author/71072"><img src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/10.jfif" alt="">
+		<p class="author">企劃主編</p>
+		<p class="author">MAXX</p>
+	</a>
+</div>
+</li>
+<li>
+<div class="thumb">
+	<a target="__blank" href="https://www.cool-style.com.tw/wd2/archives/author/71073"><img src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/5.jfif" alt="">
+		<p class="author">企劃編輯</p>
+		<p class="author">EDDY</p>
+	</a>
+</div>
+</li>
+<li>
+<div class="thumb">
+	<a target="__blank" href="https://www.cool-style.com.tw/wd2/archives/author/71102"><img src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/6.jfif" alt="">
+		<p class="author">企劃編輯</p>
+		<p class="author">CARA</p>
+	</a>
+</div>
+</li>
+<li>
+<div class="thumb">
+	<a target="__blank" href="https://www.cool-style.com.tw/wd2/archives/author/71116"><img src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/7.jfif" alt="">
+		<p class="author">影音編輯</p>
+		<p class="author">LUI</p>
+	</a>
+</div>
+</li>
+<li>
+<div class="thumb">
+	<a target="__blank" href="https://www.cool-style.com.tw/wd2/archives/author/71140"><img src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/8.jfif" alt="">
+		<p class="author">企劃編輯</p>
+		<p class="author">ARTHUR</p>
+	</a>
+</div>
+</li>
+<li>
+<div class="thumb">
+	<a target="__blank" href="https://www.cool-style.com.tw/wd2/archives/author/71103"><img src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/11.jfif" alt="">
+		<p class="author">企劃編輯</p>
+		<p class="author">WWW</p>
+	</a>
+</div>
+</li>
+<li>
+<div class="thumb">
+	<a target="__blank" href="https://www.cool-style.com.tw/wd2/archives/author/71139"><img src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/12.jfif" alt="">
+		<p class="author">企劃編輯</p>
+		<p class="author">ECHO</p>
+	</a>
+</div>
+</li>
+<li>
+<div class="thumb">
+	<a target="__blank" href="https://www.cool-style.com.tw/wd2/archives/author/s7135"><img src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/13.jfif" alt="">
+		<p class="author">企劃編輯</p>
+		<p class="author">BALD</p>
+	</a>
+</div>
+</li>
+</ul></div></aside>                </div>
+                                        <div class="footer-sidebar">
+                    <aside id="custom_html-4" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><center><a href="https://www.cool-style.com.tw/wd2"><img src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/COOL-LOGO-new-1.png" alt="" width="80%"></a></center>
+
+<ul id="footer-social" style="text-align:center">
+<li class="fb" style="width:60px;height:60px;margin:0 10px"><a href="https://www.facebook.com/cool.streetfashion/" target="_blank"><img src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/gg1n0w1.png" style="width:60px;height:60px"></a></li>
+<li class="instagram" style="width:60px;height:60px;margin:0 10px"><a href="https://www.instagram.com/cool_magazine_taiwan/" target="_blank"><img src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/OnmUIyI.png" style="width:60px;height:60px"></a></li>
+<li class="youtube" style="width:60px;height:60px;margin:0 10px"><a href="https://goo.gl/we15vE" target="_blank"><img src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/trGHK5A.png" style="width:60px;height:60px"></a></li>
+<li class="line" style="width:60px;height:60px;margin:0 10px"><a href="https://line.me/R/ti/p/%40syh6255a" target="_blank"><img src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/WC1OPch.png" style="width:60px;height:60px"></a></li>
+</ul>
+
+<div id="contact-us">
+    <a href="mailto:victoria_chen@mail2.spp.com.tw?subject=%E8%81%AF%E7%B5%A1COOL">聯絡我們</a> | <a href="mailto:anna_liao@mail2.spp.com.tw?subject=COOL%E5%BB%A3%E5%91%8A%E5%88%8A%E7%99%BB">廣告刊登</a>
+</div></div></aside>                </div>
+                    </div>
+                        <div class="footer-lower">
+        <div class="footer-inner shadowfiend-site-container">
+                        <div class="shadowfiend-copyright"></div>
+        </div>
+    </div>
+    
+    		</div>
+    		<!-- FOOTER close -->
+
+        </div>
+        <!-- page-wrap close -->
+
+      </div>
+      <!-- site-container close-->
+        <script type="text/javascript" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/imagesloaded.js"></script>
+<script type="text/javascript" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/jquery_004.js"></script>
+<script type="text/javascript" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/justifiedGallery.js"></script>
+<script type="text/javascript" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/jquery.js"></script>
+<script type="text/javascript" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/masonry.js"></script>
+<script type="text/javascript" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/ticker.js"></script>
+<script type="text/javascript" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/jquery_005.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var ajax_btn_str = {"loadmore":"Load More","nomore":"No More Posts"};
+var loadbuttonstring = null;
+/* ]]> */
+</script>
+<script type="text/javascript" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/module-load-post.js"></script>
+<script type="text/javascript" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/classic-blog-load-post.js"></script>
+<script type="text/javascript" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/large-blog-load-post.js"></script>
+<script type="text/javascript" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/shadowfiend_post_review.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var fixed_nav = "1";
+var shadowfiend_flex_el = null;
+var megamenu_carousel_el = null;
+var ticker = null;
+/* ]]> */
+</script>
+<script type="text/javascript" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/customjs.js"></script>
+<script type="text/javascript" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/js.js"></script>
+<script type="text/javascript" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/jquery_003.js"></script>
+<script type="text/javascript" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/other.js"></script>
+<script type="text/javascript" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/new-tab.js"></script>
+<script type="text/javascript" src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/wp-embed.js"></script>
+<script type="text/javascript" charset="utf-8">
+if (-1 == document.location.href.indexOf('?link=ref') && (!Cookies.get('banner-ref') || Cookies.get('banner-ref') < 1)) {
+    var n = Cookies.get('banner-ref') ? parseInt(Cookies.get('banner-ref')) : 0;
+    n++;
+    Cookies.set('banner-ref', n, { expires: 1 });
+    var url = document.location.href;
+    jQuery('body').append('<iframe src="' + url + '?link=ref" style="display:none;"></iframe>');
+    jQuery('body').append('<iframe src="' + url + '?link=ref2" style="display:none;"></iframe>');
+}
+</script>
+<!-- Begin comScore Tag -->
+<script>
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "14383407" });
+(function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+})();
+</script>
+<script>
+jQuery(function() {
+    jQuery('#slider-pc').css('height', (parseInt(jQuery('.slider-h').css('width')) / 2) + 'px');
+    jQuery('#slider-mobile').css('height', (parseInt(jQuery('.slider-h').css('width')) * 1.33) + 'px');
+});
+</script>
+<noscript>
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=14383407&cv=2.0&cj=1" />
+</noscript>
+<!-- Mozilla/5.0 (iPhone; CPU iPhone OS 13_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Safari Line/9.15.1 | 172.24.201.7 -->
+<!-- End comScore Tag -->
+
+
+
+
+
+
+</div><iframe src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/search.htm" style="display:none;"></iframe><iframe src="%E7%99%BE%E8%90%AC%E8%A8%82%E9%96%B1%E7%B6%B2%E7%B4%85%E3%80%8CRU%E5%91%B3%E6%98%A5%E6%8D%B2%E3%80%8D%E7%8B%A0%E9%85%B8%E5%90%8C%E6%A5%AD%E3%80%8C%E9%9D%A0%E9%9C%B2%E5%A5%B6%E5%90%B8%E5%BC%95%E4%BA%BA%E6%84%8F%E6%B7%AB%E3%80%8D%EF%BC%8C%E8%A2%AB%E6%8A%93%E5%8C%85%E5%88%86%E8%BA%AB%E5%B8%B3%E8%99%9F%E5%BE%8C%E7%A8%B1%E3%80%8C%E9%83%BD%E6%98%AF%E5%90%8C%E4%BA%8B%E7%95%99%E8%A8%80%E7%9A%84%E3%80%8D_files/search_002.htm" style="display:none;"></iframe><div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div>
+<script type="text/javascript" id="">(function(e,l){var d=function(){(function(){!function(a,c,d,e,b,f,g){a.fbq||(b=a.fbq=function(){b.callMethod?b.callMethod.apply(b,arguments):b.queue.push(arguments)},a._fbq||(a._fbq=b),b.push=b,b.loaded=!0,b.version="2.0",b.queue=[],f=c.createElement(d),f.async=!0,f.src=e,g=c.getElementsByTagName(d)[0],g.parentNode.insertBefore(f,g))}(e,l,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","316799608978715");fbq("track","PageView");e.fbq=fbq})();var h=[["adGeek","https://r.adgeek.net/313/elixir/10695"]],
+k=0,d=function(a){a=a.currentTarget;a="Fired "+a.id+", src: "+a.src;k++;console.log(a," "+k+"/"+h.length)};h.forEach(function(a){var c=new Image;c.width="1";c.height="1";c.id=a[0];c.onload=d;c.src=a[1]})};d()})(window,document);</script>
+<script type="text/javascript" id="">(function(f,g){var c=function(){var d=[["adGeek","https://r.adgeek.net/313/elixir/10696"],["amobee","https://r.turn.com/r/beacon?b2\x3dpdgCjiKKu7TWAD6vr2kfLg1Kwi8HBEbDX3Mtj9mW9cov4hHVMHoM6NjtTXespOKczKt5FJ5SYq_JGmHWEuwvbA\x26cid\x3d"]],e=0,c=function(a){a=a.currentTarget;a="Fired "+a.id+", src: "+a.src;e++;console.log(a," "+e+"/"+d.length)};d.forEach(function(a){var b=new Image;b.width="1";b.height="1";b.id=a[0];b.onload=c;b.src=a[1]})};c()})(window,document);</script></body></html>
+<!-- Dynamic page generated in 1.369 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2020-05-18 17:49:07 -->
+<!-- super cache -->

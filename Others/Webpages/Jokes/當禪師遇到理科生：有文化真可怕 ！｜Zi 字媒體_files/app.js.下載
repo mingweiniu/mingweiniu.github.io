@@ -1,0 +1,31 @@
+// var gototop_image = "/images/icon-arrow-right-white.svg?20190103v3";
+// var gototop_html="";
+// gototop_html += "<div class=\"gl_goTop\" style=\"display:none;\"><img src=\"" + gototop_image + "\"><\/div>";
+// 
+// document.body.insertAdjacentHTML( 'beforeend', gototop_html );
+
+
+var adult_modal_18_image = "/images/18.svg?20190103v3";
+var adult_modal_html="";
+adult_modal_html += "<div class=\"no18-outer\" style=\"display: none;\">";
+adult_modal_html += "<div class=\"no-18-wrap\">";
+adult_modal_html += "<h2><img class=\"no-18-img\" src=\"" + adult_modal_18_image + "\" alt=\"限制\"><\/h2>";
+adult_modal_html += "<h3 class=\"fz16\">本網站已依網站內容分級規定處理<\/h3>";
+adult_modal_html += "<p class=\"no-intro\">";
+adult_modal_html += "警告︰您即將進入之看板內容需滿十八歲方可瀏覽。";
+adult_modal_html += "若您尚未年滿十八歲，請點選離開。若您已滿十八歲，亦不可將本區之內容派發、傳閱、出售、出租、交給或借予年齡未滿18歲的人士瀏覽，或將本網站內容向該人士出示、播放或放映。";
+adult_modal_html += "<\/p>";
+adult_modal_html += "<div class=\"no18-btn-group\">";
+adult_modal_html += "<div class=\"left-item\"><span class=\"no-btn no-btn-blue\">進入<\/span>";
+adult_modal_html += "<div class=\"fz14\">我已滿18歲<\/div>";
+adult_modal_html += "<\/div>";
+adult_modal_html += "<div class=\"right-item\"><span class=\"no-btn no-btn-red\">離開<\/span>";
+adult_modal_html += "<div class=\"fz14\">未滿18歲<\/div>";
+adult_modal_html += "<\/div>";
+adult_modal_html += "<\/div>";
+adult_modal_html += "<\/div>";
+adult_modal_html += "<\/div>";
+
+document.body.insertAdjacentHTML( 'beforeend', adult_modal_html );
+
+
