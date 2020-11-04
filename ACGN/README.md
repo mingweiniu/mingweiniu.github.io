@@ -62,7 +62,6 @@ TRINITY SEVEN
 天野惠滿身都是破綻  
 久保同學不放過我  
 艾莉森  
-怪獸八號  
 縱之國  
 我的現實是戀愛遊戲 
 
@@ -141,34 +140,29 @@ perosona
 * [Tomb Rider](https://store.steampowered.com/bundle/13831/Tomb_Raider_Collection/)
 * [wtf](https://store.steampowered.com/bundle/7694/Kagura_Bundle/)
 
-## games  
+## DOS~XP games
 小魔女帕妃  
-英雄傳說  
+精靈幻境  
+奇幻仙境  
+幻世錄  
+
+## PS
+俠盜銀河  
+仁王  
+戰神  
+
+## games  
 魔女之泉  
 歧路旅人  
 地平線  
-仁王  
-德軍總部II：新巨像  
-惡靈古寶7  
 榮耀戰魂  
-戰神  
-真三國無雙8  
-碧血狂殺  
-異塵餘生  
-片羽  
-Purple software - アオイトリ
-古墓奇兵  
-汪達與巨像  
 戰場女武神1跟3  
 神諭 原罪2  
 勇者已死  
 螢火蟲日記  
 奧丁領域  
-Magic Scroll Tactics  
-Magicka  
 雙星物語  
 祭物與雪的剎那  
-帽子世界  
 英雄無敵3  
 banner saga  
 ルカと魔法の本  
@@ -177,8 +171,6 @@ banner saga
 魔女與百騎兵  
 龍族教義  
 Queen's Wish  
-魔幻歷險  
-幻世錄  
 二之國  
 光明之魂2  
 Ori and the blind forest  
@@ -189,27 +181,32 @@ Hades
 Dungeon Siege II  
 Undertale  
 工人物語  
+鹽與聖所  
+妖精劍士f  
+往日不在  
+風之旅人  
+
+## RTP
+帽子世界  
+幻想之詩  
+禁錮的古堡  
+To The Moon  
+永恆的賽妮亞  
+闇閻神族  
+月藍傳奇  
 
 ## Nintendo
-鹽與聖所  
 異域神劍  
 薩爾達  
 聖劍同盟  
 牧場物語  
 
-## RPG  
-妖精劍士f  
-勇者鬥惡龍11  
-往日不在  
-風之旅人  
-
 ## galgame
+片羽  
+Purple software - アオイトリ
 MagusTale ～世界樹與戀愛魔法使～  
-スケベエルフの森へ  
 紙の上の魔法使い  
 世界樹迷宮  
-命運石之門 
-比翼雙飛的戀人  
 戰場女武神  
 遊魂2  
 傳頌之物  
@@ -218,11 +215,9 @@ Witch Trainer
 すきま桜とうその都会  
 きっと  
 澄みわたる朝色よりも  
-我的女友是藍領 民工女友  
 巢作之龍  
 五彩斑斕的世界  
 櫻之詩  
-riddle joker  
 蘭斯  
 星之夢  
 聖火降魔錄  
@@ -237,15 +232,12 @@ riddle joker
 桃花染の皇姫  
 裝甲惡鬼村正  
 聖なるかな  
-永遠のアセリア  
 カタハネ  
-ef - a fairy tale of the two.  
 淑女同萌  
 Fate  
 Princess Frontier  
 Castle Fantasia  
 デモニオン  
-俠盜銀河  
 白刃きらめく恋しらべ  
 絆きらめく恋いろは  
 シキガミ  
