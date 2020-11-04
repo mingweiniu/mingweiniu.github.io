@@ -14,11 +14,6 @@ https://dlsoft.dmm.co.jp/music/mylibrary
 https://dlsoft.dmm.co.jp/mylibrary/
 
 
-## Queue
-
-## Online Game
-hell diver
-
 ## 等待動畫化
 魔女之旅  
 歐菲 二期  
@@ -209,7 +204,6 @@ MagusTale ～世界樹與戀愛魔法使～
 世界樹迷宮  
 戰場女武神  
 遊魂2  
-傳頌之物  
 Witch Trainer  
 枯れない世界と終わる花  
 すきま桜とうその都会  
@@ -218,7 +212,6 @@ Witch Trainer
 巢作之龍  
 五彩斑斕的世界  
 櫻之詩  
-蘭斯  
 星之夢  
 聖火降魔錄  
 召喚夜響曲  
@@ -234,7 +227,6 @@ Witch Trainer
 聖なるかな  
 カタハネ  
 淑女同萌  
-Fate  
 Princess Frontier  
 Castle Fantasia  
 デモニオン  
