@@ -195,6 +195,7 @@ To The Moon
 薩爾達  
 聖劍同盟  
 牧場物語  
+BRAVELY DEFAULT II  
 
 ## galgame
 片羽  
