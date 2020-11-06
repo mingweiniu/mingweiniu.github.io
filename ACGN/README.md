@@ -1,6 +1,5 @@
 # ACGN
 
-
 ## Japanese
 https://flandredaisuki.github.io/Furikana-Lyric/  
 
@@ -145,6 +144,7 @@ perosona
 俠盜銀河  
 仁王  
 戰神  
+魔塔大陸  
 
 ## games  
 魔女之泉  
@@ -196,6 +196,7 @@ To The Moon
 聖劍同盟  
 牧場物語  
 BRAVELY DEFAULT II  
+A Hat in Time  
 
 ## galgame
 片羽  
