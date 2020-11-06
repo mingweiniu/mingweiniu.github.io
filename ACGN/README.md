@@ -197,6 +197,7 @@ To The Moon
 牧場物語  
 BRAVELY DEFAULT II  
 A Hat in Time  
+符文工廠  
 
 ## galgame
 片羽  
