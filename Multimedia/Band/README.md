@@ -4,6 +4,9 @@
 * The Beatles
 * The Rolling Stones
 * The Who
+* Queen
+  * We Will Rock You
+  * Bohemian Rhapsody
 
 ## American rock band
 * Pearl Jam 
@@ -20,22 +23,34 @@
 * Aerosmith
 * Scorpions 
 * Iron Maiden
+* Bon Jovi
 * Queen
   * We Will Rock You
 
-## 90
+## 90 rock
 * Europe
   * The Final Countdown
+
+## Punk 
+* Sex Pistols
+* Green Day
+* Blink 182
+* Sum 41
+
+## Rapper
+* Dr. Dre
+* Eminem
 
 ## Death Metal
 * Cannibal Corpse
 * Deicide
 * Rebaelliun
   * Annihilation
-* 死靈
+* 閃靈
 
 ## Black Metal
 * Dark Funeral
+* Cradle of Filth
 * Dimmu Borgir
 * 幻日
 
@@ -47,12 +62,14 @@
   * Rebirth
   * Carry On
 
-## Netflix
-* The Rolling Stones
-* Eagles
-* The Beatles
-* Metallica
-* 《反叛者》
+## 系列
+* What Makes This Song Great?
+* Netflix 紀錄片
+	* The Rolling Stones
+	* Eagles
+	* The Beatles
+	* Metallica
+	* 《反叛者》
 
 ## 
 * 鄧福如 
