@@ -1,5 +1,8 @@
 # Band
 
+## Blues
+* B. B. King
+
 ## English rock band
 * The Beatles
 * The Rolling Stones
@@ -71,7 +74,7 @@
 	* Metallica
 	* 《反叛者》
 
-## 
+## 其他
 * 鄧福如 
 * Billie Eilish
 
