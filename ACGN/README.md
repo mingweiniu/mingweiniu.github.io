@@ -95,7 +95,6 @@ perosona
 物語系列  
 源君物語  
 魔女之刃  
-出包王女  
 物語戰場原  
 寄宿學校的茱麗葉  
 妖怪少女  
@@ -126,7 +125,6 @@ perosona
 * [工畫堂](https://store.steampowered.com/bundle/5476/Kogado_Collection/)
 * [黃昏系列](https://store.steampowered.com/bundle/13066/Atelier_Dusk_Trilogy_Deluxe_Pack_____DX/)
 * [傳頌之物](https://store.steampowered.com/bundle/12645/Utawarerumono_Complete_Bundle/)  
-* Neverwinter night
 * [三小...](https://store.steampowered.com/bundle/5460/NISA_RPG_Bundle/)
 * [SEGA](https://store.steampowered.com/bundle/13945/SEGA_Mega_Drive_and_Genesis_Classics/)
 * [惡靈古堡](https://store.steampowered.com/bundle/261/Resident_EvilBiohazard_Collectors_Pack/)
@@ -159,7 +157,6 @@ perosona
 雙星物語  
 祭物與雪的剎那  
 英雄無敵3  
-banner saga  
 ルカと魔法の本  
 暗影之心1&2  
 矮人要塞  
@@ -168,9 +165,7 @@ banner saga
 Queen's Wish  
 二之國  
 光明之魂2  
-Ori and the blind forest  
 Dead Cells  
-Child of Light  
 Titan quest  
 Hades  
 Dungeon Siege II  
