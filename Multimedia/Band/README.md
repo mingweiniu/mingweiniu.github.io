@@ -2,6 +2,7 @@
 
 ## Blues
 * B. B. King
+* Jimi Hendrix
 
 ## English rock band
 * The Beatles
