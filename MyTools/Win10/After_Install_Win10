@@ -1,0 +1,25 @@
+# win-updates-disabler-setup.exe
+
+# close sleep
+powercfg -h off
+ 
+# remove apps
+Get-AppxPackage -AllUsers | Remove-AppxPackage
+
+# compress
+COMPACT.EXE /CompactOS:query
+COMPACT.EXE /CompactOS:always
+
+# close VS 2019 update
+cd "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community"
+ .\Common7\IDE\VsRegEdit.exe set . HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 0
+
+open "regedit"
+HKEY_CURRENT_USER\Control Panel\Colors -> Window(s)  set   "204 232 207"
+
+
+輸入法預設英文  
+1. 新增英文English(United States)語系 (控制台 > 語言 > 新增語言)  
+2. 修改切換輸入法預設行為 (控制台 > 語言 > 進階設定)  
+3. 讓我為每個應用程式視窗設定
+

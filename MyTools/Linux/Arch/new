@@ -1,0 +1,8 @@
+
+語系
+export LANG=en_US.UTF-8
+
+.vimrc
+set tabstop=4
+set nu
+colorscheme 
