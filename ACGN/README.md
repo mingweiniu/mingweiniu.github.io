@@ -175,6 +175,7 @@ Undertale
 妖精劍士f  
 往日不在  
 風之旅人  
+Kingdom Come: Deliverance  
 
 ## RTP
 帽子世界  
