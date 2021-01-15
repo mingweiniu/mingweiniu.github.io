@@ -119,6 +119,9 @@ perosona
 結城友奈  
 傳頌之物  
 蟲師  
+境界觸發者  
+刻刻  
+魔法少女網站  
 
 ## Bundles
 * [Little Busters](https://store.steampowered.com/bundle/8809/Little_Busters_Game_and_Soundtrack_Bundle/)
