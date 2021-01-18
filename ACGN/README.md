@@ -200,6 +200,10 @@ A Hat in Time
 符文工廠  
 
 ## galgame
+戀劍少女  
+運命線上のΦ  
+幻創のイデア  
+LOVELY×CATION  
 片羽  
 Purple software - アオイトリ
 MagusTale ～世界樹與戀愛魔法使～  
