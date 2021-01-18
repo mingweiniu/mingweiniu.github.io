@@ -219,6 +219,8 @@ Witch Trainer
 巢作之龍  
 五彩斑斕的世界  
 櫻之詩  
+lovepotion sixtime  
+月あかりランチ  
 星之夢  
 聖火降魔錄  
 召喚夜響曲  
