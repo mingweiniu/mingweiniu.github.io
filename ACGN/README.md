@@ -160,7 +160,6 @@ perosona
 螢火蟲日記  
 奧丁領域  
 雙星物語  
-祭物與雪的剎那  
 英雄無敵3  
 ルカと魔法の本  
 暗影之心1&2  
@@ -179,7 +178,6 @@ Undertale
 鹽與聖所  
 妖精劍士f  
 往日不在  
-風之旅人  
 Kingdom Come: Deliverance  
 
 ## RTP
