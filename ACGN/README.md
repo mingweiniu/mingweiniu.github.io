@@ -133,6 +133,7 @@ perosona
 * [SEGA](https://store.steampowered.com/bundle/13945/SEGA_Mega_Drive_and_Genesis_Classics/)
 * [惡靈古堡](https://store.steampowered.com/bundle/261/Resident_EvilBiohazard_Collectors_Pack/)
 * [逆轉裁判](https://store.steampowered.com/bundle/10232/Phoenix_Wright_Ace_Attorney_Trilogy__Turnabout_Tunes_Bundle__123/)
+* [永恆之柱](https://store.steampowered.com/bundle/7621/Pillars_of_Eternity_Collection/)
 * [Tomb Rider](https://store.steampowered.com/bundle/13831/Tomb_Raider_Collection/)
 * [wtf](https://store.steampowered.com/bundle/7694/Kagura_Bundle/)
 
