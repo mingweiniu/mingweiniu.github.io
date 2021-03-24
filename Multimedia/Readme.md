@@ -14,10 +14,6 @@ guitarlist.net/
 吉他gpx譜
 https://www.jitashe.org/artist/12215/
 
-
-# Youtube Play List
-https://hackertarget.com/extract-links/
-
 # Online Metronome
 https://www.flutetunes.com/metronome/  
 
