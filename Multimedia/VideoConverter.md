@@ -11,5 +11,5 @@ $Input = "X1.mkv", "X2.mkv"
 $Output = "X1.mp4", "X2.mp4"  
 for ($i = 0; $i -lt $Input.Length; $i++)  
 {  
-    ffmpeg -i $Input[$i] -s hd720 -c:v h264_nvenc -cq:v 23 -c:a aac -strict -2 $Output[$i]  
+    ffmpeg -i $Input[$i] -s hd720 -c:v libx264 -cq:v 23 -c:a aac -strict -2 $Output[$i]  
 }  
