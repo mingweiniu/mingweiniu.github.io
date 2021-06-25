@@ -13,3 +13,11 @@ for ($i = 0; $i -lt $Input.Length; $i++)
 {  
     ffmpeg -i $Input[$i] -s hd720 -c:v libx264 -crf 23 -c:a aac -strict -2 $Output[$i]  
 }  
+
+
+## tar all folder
+foreach($file in Get-ChildItem .)
+{
+  $name = $file.Name
+  tar cvf "$name.tar" $name
+}
