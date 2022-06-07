@@ -1,0 +1,24 @@
+先調查哪個systemctl沒起來
+$ systemctl --failed
+可以看到是 modules load掛了
+$ systemctl status systemd-modules-load
+ArchWiki示範是15630而我自己是154
+$ journalctl _PID=154
+全都死在virtaulbox
+看一下那裡有問題
+$ ls -Al /etc/modules-load.d/
+如果沒做其他安裝  可能只有virtualbox.conf檔
+檢查一下有沒有打錯字
+$ vim /etc/modules-load.d/virtualbox.conf
+既然沒有打錯字 下面這行應該會正常執行
+$ sudo modprobe -a vboxguest vboxsf vboxvideo
+再看一次官網  其實需要安裝DKMS
+$ sudo pacman -S virtualbox virtualbox-host-dkms
+會警告沒有kernel head 所以再安裝
+$ sudo pacman -S linux-headers
+再試一次剛剛掛掉的東西
+$ sudo modprobe -a vboxguest vboxsf vboxvideo
+過了  所以重開systemctl
+$ sudo systemctl restart systemd-modules-load
+$ systemctl status systemd-modules-load
+問題排除了

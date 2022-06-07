@@ -1,0 +1,61 @@
+table {
+	border-bottom-style: none;
+	padding-bottom: 10px;
+	border-right-style: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-top-style: none;
+	border-left-style: none;
+	padding-top: 10px;
+}
+
+th {
+	border-bottom: #3f3f3f 1px solid;
+	text-align: left;
+	border-left: #3f3f3f 1px solid;
+	padding-bottom: 2px;
+	background-color: #f5f5dc;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 10pt;
+	border-top: #3f3f3f 1px solid;
+	border-right: #3f3f3f 1px solid;
+	padding-top: 2px;
+}
+
+td {
+	border-bottom: #808080 1px solid;
+	border-left: #808080 1px solid;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 10pt;
+	border-top: #808080 1px solid;
+	border-right: #808080 1px solid;
+	padding-top: 5px;
+}
+
+/* トップレベル要素 */
+.toplv {
+	background-color:#99ff99;
+}
+
+.2nd {
+	background-color:#99ff99;
+}
+
+.3rd {
+	background-color:#9999ff;
+}
+
+.4th {
+	background-color:#ffff99;
+}
+
+.5th {
+	background-color:#99ffff;
+}
+
+.6th {
+	background-color:#ff99ff;
+}

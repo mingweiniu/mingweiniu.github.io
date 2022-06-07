@@ -1,0 +1,28 @@
+$ sudo pacman -Syu glibc mesa-libgl libx11 libxcursor libxext libxrender alsa-lib libpulse  libxinerama libxkbcommon libxrandr mesa wayland wget cmake
+$ mkdir sdl; cd sdl
+$ wget https://www.libsdl.org/release/SDL2-2.0.4.tar.gz
+$ tar zxvf SDL2-2.0.4.tar.gz  ;cd SDL2-2.0.4 
+(最近04/19)會有一些問題 需要改source code
+
+$ vim ./src/video/wayland/SDL_waylanddyn.h
+內容增加
+///#define wl_proxy_get_user_data (*WAYLAND_wl_proxy_get_user_data)
+///#define wl_proxy_add_listener (*WAYLAND_wl_proxy_add_listener)
+#define wl_proxy_marshal_constructor (*WAYLAND_wl_proxy_marshal_constructor)
+///#define wl_proxy_marshal_constructor_versioned (*WAYLAND_wl_proxy_marshal_constructor_versioned)
+///#define wl_seat_interface (*WAYLAND_wl_seat_interface)
+///#define wl_surface_interface (*WAYLAND_wl_surface_interface)
+
+還有一個要改
+$ vim ./src/video/wayland/SDL_waylandsym.h
+內容增修
+///SDL_WAYLAND_MODULE(WAYLAND_CLIENT_1_4)
+///SDL_WAYLAND_SYM(struct wl_proxy *, wl_proxy_marshal_constructor, (struct wl_proxy *, uint32_t opcode, const struct wl_interface *interface, ...))
+SDL_WAYLAND_MODULE(WAYLAND_CLIENT_1_10)
+SDL_WAYLAND_SYM(struct wl_proxy *, wl_proxy_marshal_constructor_versioned, (struct wl_proxy *proxy, uint32_t opcode, const struct wl_interface *interface, uint32_t version, ...))
+///SDL_WAYLAND_INTERFACE(wl_seat_interface)
+///SDL_WAYLAND_INTERFACE(wl_surface_interface)
+///SDL_WAYLAND_INTERFACE(wl_shm_pool_interface)
+
+好了之後
+$ ./configure; make; sudo make install

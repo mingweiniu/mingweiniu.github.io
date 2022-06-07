@@ -1,0 +1,82 @@
+The system is: Windows - 10.0.18363 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/Program Files (x86)/Microsoft/Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.26.28806 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.26.28806.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "D:/download/github/_Sid/MyTools/Linux/Try_some_Multimedia/02IDE/out/build/x64-Debug (default)/CMakeFiles/3.17.20032601-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/download/github/_Sid/MyTools/Linux/Try_some_Multimedia/02IDE/out/build/x64-Debug (default)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program Files (x86)/Microsoft/Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_1adce && [1/2] Building C object CMakeFiles\cmTC_1adce.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_1adce.exe
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/download/github/_Sid/MyTools/Linux/Try_some_Multimedia/02IDE/out/build/x64-Debug (default)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program Files (x86)/Microsoft/Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_c6b85 && [1/2] Building C object CMakeFiles\cmTC_c6b85.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_c6b85.exe
+
+
+
+The system is: Windows - 10.0.18363 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/Program Files (x86)/Microsoft/Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.26.28806 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.26.28806.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "D:/download/github/_Sid/mingweiniu.github.io/MyTools/Linux/Try_some_Multimedia/02IDE/out/build/x64-Debug (default)/CMakeFiles/3.17.20032601-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/download/github/_Sid/mingweiniu.github.io/MyTools/Linux/Try_some_Multimedia/02IDE/out/build/x64-Debug (default)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program Files (x86)/Microsoft/Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_64fed && [1/2] Building C object CMakeFiles\cmTC_64fed.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_64fed.exe
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/download/github/_Sid/mingweiniu.github.io/MyTools/Linux/Try_some_Multimedia/02IDE/out/build/x64-Debug (default)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program Files (x86)/Microsoft/Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_57dd2 && [1/2] Building C object CMakeFiles\cmTC_57dd2.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_57dd2.exe
+
+
+

@@ -1,0 +1,4 @@
+
+function EmbedImageText(divID, imageURL, linkURL, anchorText){
+  document.getElementById(divID).innerHTML = "To embed this image into your site, you can use the code:<br><br><div style=\"overflow-y: scroll;\"><pre><code>&lt;center&gt;\n&lt;img src=\"" + imageURL + "\"&gt;&lt;br&gt;\nImage Source: &lt;a href=\"" + linkURL + "\"&gt;" + anchorText + "&lt;/a&gt;\n&lt;/center&gt;</code></pre></div><br><br>Please retain the attribution link if you embed this image.  Additionally, if your site receives a lot of traffic, please copy and host the image on your own server. <br><br>Thanks.";
+}

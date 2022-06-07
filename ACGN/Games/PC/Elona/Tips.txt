@@ -1,0 +1,364 @@
+Official site
+homepage3.nifty.com/rfish/index_e.html
+
+Download
+elona.squares.net/elona_xmas.zip
+
+1.22 Beta download
+noaneko.squares.net/dev/elona122.zip
+
+Official forums
+elona.squares.net/forum/
+
+Wiki
+elona.wikia.com/wiki/Elona_Wiki
+
+High-quality tileset and character portraits
+www.mediafire.com/?2rlmltxgs9acd1s
+Extract to main folder
+
+High-quality music pack
+www.mediafire.com/?kkgj7omgbge99gu
+Extract to \user
+
+pixiv (fanart)
+www.pixiv.net/search.php?s_mode=s_tag&word=elona
+Needs registration
+
+
+Character creation
+
+You won't get much done with your very first character. Instead, experiment as much as you want then make another character when you have some experience.
+
+Some easy starts are Yerles Archer/Thief/Claymore. Yerles has above average HP and starts with many key skills, and those classes do as well. Firearms can be bought at the Cyber Dome near Vernis.
+
+You should choose perks you can't get in other ways during character creation. Improved speed, luck and stamina are very useful. Exorcism can help a beginner greatly. If you plan to have lots of pets, Natural Leader is also very good. If you are a fighter and/or have high Constitution, Fire Breath is good.
+
+
+Getting started
+
+Read the in-game help by pressing '?'.
+
+Press Tab to send messages to other players. Also go to your Network options and disable chat filtering.
+
+To make money, do signboard quests. One of the safest quests is "Before It's Too Late", and it pays well. Don't do "Beauty and the Beast" or "Escort Needed" right at the beginning since they can get dangerous. "I want it!" is easily completed if you have the item on hand or if it is being sold. Make sure the item on a delivery quest isn't extremely heavy like a water tub or pillar.
+
+The Puppy Cave is a good alternative to quests for money and items for starting characters. It regenerates every time you enter or change floors, so you can find many items that way.
+
+The Harvest Time quests are difficult to complete without Gardening skill, but attempting them gives you free food and attribute training at the cost of a miniscule amount of fame for failing.
+
+Try to finish the Puppy Cave quest when you get stronger, as the reward is incredibly useful.
+
+You can use the mine and the bandit hideout in Vernis as stashes after they're cleared out. Other quest dungeons, mainly named ones, also don't regenerate and can be used in the same way.
+
+Check out goods and general stores. When you can, buy a leash, stethoscope, torch and whistle. Leashes and stethoscopes can be used on allies. Whistles can wake up sleeping NPCs without Karma loss. Hide behind a wall before blowing one or they might attack after waking up.
+
+Buy a fireproof and a coldproof blanket as soon as you see one, for they will protect your items from being destroyed by this type of attack. Also give one of each to all your pets.
+
+Blessed potions of Restore Body/Spirit raise your stats in a semi-permanent way (until you die). Buy all you see and stock them in case your stats get damaged and you need to restore them, or if you die. They also work on your pets. Blessed Restore Spirit is somewhat rarer than Restore Body. The bonuses are different for each.
+
+Healing potions are your main way to recover health during battles.
+
+You should never pick up unindentified, heavy (0.5s+) equipment that you don't plan to use, since gear sells poorly. Instead, sell "magical" goods such as rods, scrolls, spellbooks and potions. "Engagement" rings and amulets also sell very well.
+
+Talk to the barkeep of any tavern to resurrect dead pets. The same if you tell them to "wait at town".
+
+Stick to paper or glass armor at first. Paper raises evasion and Glass increases speed. Weapons should be of whatever material gets you the best damage.
+
+Shuriken and Grenades have useful effects that don't depend on their base damage, so pick them up. Panties are also very good for their status-inflicting effect, but they are rarer.
+
+Don't take delivery or escort quests until you know every city's names and where they are.
+
+As soon as you have at least 1k gold, go to Derphy and buy a Yerles Machine Infantry as a "slave" (pet). You may also buy a little girl, since these are better than the starting one. When you get to level 4, you can buy a Juere Infantry.
+
+A Rod of Teleportation is one of the most useful items, and you should always have one on you. Buy one as soon as you can at the start of the game.
+
+Buy every Rod of Identify you see. It's cheaper than asking a wizard to identify your items.
+
+Identify each type of monster body part once (bone, blood, heart, skin, etc.) before you sell them; further parts will also sell for full price.
+
+Buy an eastern bed as soon as you see one. It's not only better than a sleeping bag, but it's also lighter. Bless it when you can.
+
+You should use your platinum coins to learn new skills at the start of the game, instead of training already known ones.
+
+
+Mid-game
+
+All pets, specially the starting one, become obsolete after a certain point. It's always better to replace them with new ones when they become available instead of training old pets.
+
+Investing in shops is crucial during the midgame to get better equipment and items. Investing in magic shops in particular will make them sell scrolls of change material, among other things, which will let you dramatically improve your equipment. Superior material scrolls are even better. Investing in armories is also a good way to get better quality equipment.
+
+Investing in black market vendors can make them more likely to sell a large list of artifact equipment, whose material you can then change.
+
+Doing the main story quests, starting with Lesimas, gives access to powerful equipment, but the bosses can be tough.
+
+For armor, spirit cloth is very light and raises speed and DV. Griffon Scale and dragon scale are lightweight materials that offer impressive PV and DV. Rubynus is slightly heavier and increases Life. For weapons, Rubynus weapons have the best accuracy bonus, and Diamond weapons have high damage. Adamantium equipment can come from Change Material scrolls -- it has the highest PV and a damage bonus second only to Ether, but is very heavy. An Adamantium Katana can be 4d10+20 and weighs just over 4s, though.
+ 
+Gloves can grant damage and accuracy bonuses, and these bonuses affect all weapons. Bullets give more accuracy, Energy Cells give more damage and weigh less. Daggers and Staves can get defensive stats if you primarily use ranged weapons.
+
+The highest quality of armor are fairy hats and composite helms for head, feathers and vindale cloaks for back, plate mails and bulletproof jackets for body, kite shields for shield, plate gauntlets and decorated gloves for arms, plate girdles for waist, and tight boots and seven league boots for legs.
+
+If you have your own shop, you can drop artifact and godly items you don't want in them, for a chance that they will be rerolled instead of just sold.
+
+Ranches produce copies of the monster you set to breed in it over time, with a chance of mutation. They can them be sold as slaves or killed for their corpses.
+
+When/if money stops being an issue, it's always better to identify magical items with the wizard, as you don't want to waste a potentially rare item by drinking/reading/zapping it yourself just to identify it.
+
+It is very important that you're able to float by the midgame. Mines are basically instant kill traps, and there is an enemy that can lay them at will. Of course, it also helps with puddles and other kinds of traps.
+
+Carrying some scrolls of Holy Veil can help fighting Executioners by the midgame. Read them when you see them to block their Word of Death.
+
+A Great Race of Yith or Spiral King is a great pet to have. If you have Riding skill, they're amazing to ride, too. You can find them in level 50+ dungeons, and will need about 20 in Magic Device skill and the Monster Heart from the Silver Cat quest to reliably dominate one.
+
+
+Skills
+
+Platinum Coins are gained mostly from finishing quests. They can be used to train skill potentials, but also to teach you new skills. What follows is a list of useful skills to have:
+ 
+General:
+Weight Lifting - Raises Weight Limit. Trains while you're burdened. Get it early.
+Sense Quality - Helps identify item qualities, trained while carrying unidentified equipment. Get it early.
+Negotiation - Lowers NPC prices and raises sell price for your items. Get it early.
+Cooking - Cooked food gives more stat gains and lasts significantly longer before rotting.
+Anatomy - Monsters are more likely to drop corpses.
+Pickpocket - Can get you good items very fast, even at low levels.
+Investing - Investing in shops increases the quantity and quality of items sold.
+Performer - One of the fastest ways to make cash, after the initial grind to level it.
+Lockpicking - Opens doors and chests. Bashing open locked doors can cause stat damage.
+Gene Engineer - Combine pets to give the host increased stats, new skills, and body parts. Very important.
+Riding - Ride a pet to move at its speed, if you have enough skill. Accuracy and casting chance are lowered, but penalties decrease with higher skill.
+Mining - Dig walls. Only reliable once highly leveled. A good way to train Constitution.
+Fishing - A good way to get food. Pretty much required to gain favor with Ehekatl.
+ 
+Combat:
+Tactics - Increases the damage multiplier for melee and thrown weapons.
+Marksman - Increases the damage multiplier for all other ranged weapons.
+Dual Wield - Lowers penalties for attacking with two or more weapons at the same time, with chance of a third offhand attack.
+Firearm - Lets you use machineguns, shotguns and laser guns.
+Greater Evasion - A second evasion chance that will save your life at high skill level.
+Eye of Mind - Increases critical chance, very noticable at a high skill level.
+
+Getting Riding and a horse from Yowyn early on can help immensely with your speed, especially if you choose a slower race when starting the game, and it also negates the Speed loss from being tired. You'll also want to upgrade your horse once you reach higher levels. If, on the other hand, your base speed is already good, riding one will only slow you down. If you intend to ride, give your pet speed-boosting equipment.
+
+Tactics and Magic Device grant you new special 'a'ctions once you level up if they over level 16: Swarm and Draw/Fill Charges, respectively.
+
+If you have Lockpicking, buy every gambling chest equal or lower than your skill's level if you have the money. It's the easiest way to improve that skill, and occasionally these chests give great money rewards.
+
+To train Weight Lifting, constantly keep yourself burdened, preferably with a useless weight of some kind that is easily replaceable so you can drop it when you need speed. Weight Lifting is a priority to train for the endgame so you can carry all the gear you want with ease.
+
+Equipment that gives you an extra melee attack can also trigger further attacks while dual wielding.
+
+Getting platinum coins gets easier once you hit 30k fame as Panic quests become available. They may give up to three at completion and aren't necessarily harder than a Hunting quest.
+
+Keep any items that raise skills, especially if it's ## or more.
+
+Every "#" that an item improves on your skills can be from 1 to 5 levels. So even a single # can be very useful.
+
+If you want to carry skill-boosting equipment with you, use a scroll of Inferior Material on it until you get paper or cloth.
+
+
+Gods
+
+Go to the Truce Ground north of Palmia as soon as possible to choose a god. Opatos, Jure, and Lulwy are good beginning choices. Opatos lowers physical damage taken and gifts a pet that has a significant weight limit. Jure gives you a powerful healing skill and a pet with a skill that can revive you once, recharged by sleeping. Lulwy is a powerful god due to her speed boosting abilities.
+
+You should learn how to fish before picking Ehekatl. It is, however, possible to gain favor with her without it, but it's much slower.
+
+You should probably worship Kumiromi if you're a Farmer.
+
+You can switch gods, but will incur 10000 turns of penance if you do. It's not as bad an idea as it seems.
+
+
+Food
+
+You can eat or drink anything from the ground and no one will care. Be careful, though, as it might be cursed.
+
+If you ever vomit right after eating something, it was cursed. If you are paranoid, have lots of money, or want to be prepared (like when going into a dungeon), identify everything before eating it.
+
+Rations are actually very rare food. Never eat your starting ones when you can eat other (perishable) food instead.
+
+Cargos of Traveller's Ration are the cheapest food that you may buy. They also don't weight anything, and are automatically eaten during travel on the world map. You can eat them while in a town, but not inside a dungeon. Always carry at least 2 with you at all times.
+
+Eating rations and bread sticks at the beginning is acceptable, but not in the long run. Eating food trains your attributes, but those two don't. Try to eat ever higher quality food after the start of the game, even if it's just fruit. If you have the money, buy prepared food from vendors.
+
+It's important to keep your pets fed during the long run, so that their attributes improve, like yours. If you have the money, buy them food from vendors.
+
+If you drop unidentified food on the ground and your pet doesn't eat it (if it isn't full already), the food is cursed. This can be useful in an emergency, since you can displace your pet if it does start eating to make it stop.
+
+Buying a meal from an innkeeper, while not nutritive attribute-wise, is a reliable way to go from hungry to full, since it's instantaneous and you can't vomit from it.
+
+If you are almost dying from starvation (like from vomiting after eating), do NOT eat unindentified food. It might be cursed, and vomiting will most likely kill you. Eat anything that's already identified, a cargo of traveller's ration, or, if you are in town, ask the innkeeper to bring you a meal.
+
+Cooking is a very useful skill. Cooked food not only fills more, but it also trains attributes more than raw and lasts much longer before rotting. There is a food processor/maker in almost every town, so use those to cook high-quality food. Carrying a portable cooking tool with you is also a good idea. Also cooked food tends to weight less and can be more filling than uncooked foods.
+
+Milk is a good emergency food, since you can drink it in a single turn and can even do it while already "satisfied". Just make sure it isn't cursed.
+
+Herbs, such as curaria and stomafillia, are rare food that train attributes tremendously when eaten. Buy and eat all you see.
+
+Always carry your cooler with you. It can hold up to four different food items that would otherwise perish. If you have stacks of food you can put them in the cooler and they will only count as one item. Fruit trees are good cooler stuffers as all fruit dropped from them (barring cursed and blessed fruits) will stack saving you precious cooler space.
+
+Karma and Fame
+
+Be careful not to accept quests you're not sure you can complete in time, since the fame and karma loss can be steep.
+
+You can kill any "neutral" NPC without karma loss. If the game doesn't ask if you're sure before attacking, the NPC is neutral. These include beggars, children and general peasants. Beggars, nobles, and bards can generate special items when killed.
+
+At a low level, never open missing wallets and suitcases. Keep them, in case you fail quests and/or need to recover karma quickly. At a high level, they are usually better to be opened.
+
+Think of positive karma as an "allowance" you can spend doing dirty deeds. If you hit max karma, steal, murder an unique NPC, or prostitute yourself. You'll naturally recover it by completing quests. You should, however, have max karma by the end of the month, so you pay less taxes.
+
+You lose karma if you fail delivery or escort quests, but not most other quest types. Fame increases the world difficulty, makes new quests available, and increases the price of cargo rations. You can purposefully fail quests that have no karma penalty to lower your fame if yours is too high and enemies get too strong.
+
+
+Your home
+
+You should redesign your starting house until it has, at least, a functional design.
+
+House deeds might be very expensive, but it's important to buy one when you can so you may relocate your house to a more convenient location than the starting cave's.
+
+You can hire a maid at your house. Once you do, adventurers may visit you; you can make them drunk and pickpocket all of their artifacts. Attribute trainers can also appear, among other kinds of NPCs.
+
+Palmia and Port Kapul are overall the best cities to use as your "home base" (build your house near them). If you're a mage, you might want to choose Lumiest instead. Derphy for a thief, or if you have lots of ranches. Yowyn for a farmer and Port Kapul for a fighter. You should choose Palmia if you're a pianist.
+
+Building your house between two cities can let you quickly go through vendors' stocks by travelling from one city to the other, so they may refresh.
+
+Storehouses are a cheap alternative to bigger houses if you run out of storage space for items in yours.
+
+Treasure machines are the best furniture to improve your house rank.
+
+Use scrolls of Inferior Material on every furniture you have to improve house rank. It will improve even if you just get "raw".
+
+
+Etherwind
+
+Etherwind may only blow on the first 10 days of months multiple of 3 (3, 6, 9, 12). Never attempt to travel within these days. It can even start blowing as soon as months change, so be prepared for sudden Etherwind.
+
+Shelters pass the time quickly and feed you. At home time is passed normally and you need your own food; you can make it pass quickly if you have a skill book or a training machine. You are unsafe anywhere else, even in town.
+
+Even a few turns outside in Etherwind can corrupt you, so seek shelter immediately once it starts.
+
+When you get a "lucky day" event from a dream or from eating blessed food, go to a casino. Bet 1 chip at a time, and quit after 4 wins to receive a guaranteed Cure Corruption potion. They not only revert the symptoms of Ether Disease, but they also can be sold at a very high price. You can also trade them to adventurers for very good equipment or items, specially at the beginning of the game.
+
+
+Pickpocketing
+
+You may pickpocket items that weight up to half your Strenght. You can drink a potion of Hero to temporarily boost yours and steal heavier stuff.
+
+Pickpocketing trees after a Hunting quest is a safe and easy way to raise Pickpocket if you have the Strenght.
+
+If you want to steal something on the ground but there is someone nearby, teleport them away.
+
+Stealing from an NPC is much easier if he is drunk or sleeping. 'G'ive them whisky before trying.
+
+Lighter items take less time to steal, so it's less likely that someone will notice your attempt.
+
+Slaughtering every neutral NPC in town can help with pickpockting since there will be less potential witnesses.
+
+
+Performing
+
+You want to find a lighter instrument than your piano as soon as possible. The lute has a good quality/weight ratio, so try to find or buy one. Harmonicas are also incredibly light, and gou can get a free horn at the Graveyard east of Lumiest.
+
+Stamina is incredibly important for a pianist. Choose perks that improve it.
+
+Never try Party Time requests without carrying your own instrument.
+
+A Performer skill level of ~20 is enough to complete any Party Time quest at the beginning of the game (as of 1.16).
+
+Your level is also extremely important when performing. It's much harder to please characters many levels above you. Target them with '*' before playing; if it's harder than "He is at least twice stronger than you", you might want to avoid playing to them.
+
+Your positioning when starting to play your instrument during the Party Time quest is crucial. You should both have as many people possible within your field of view, and the highest level of people in it (as long as they listen to your music without throwing rocks). Every NPC spawns on the carpeted areas of a party room; if there are many of these "areas" clustered together, you should stand where you can see all of them and start playing.
+
+<Loyter> crimson of Zanan and <Whom dwell in the vanity> are very dangerous NPCs in party time quests. Not only their requirements for being pleased are high, but the rocks they throw can easily kill a weak character. Avoid playing around them if you're unsure. They will, however, accept your performances after your skill reaches about level 50.
+
+Always 'R'est at least twice before accepting a Party Time quest, even if you think you don't need it.
+
+It's better to play your own (lower quality) instrument to many people at once than to play the pre-placed pianos to a few in the party room.
+
+NPCs that are "pleased" during a Party Time quest have a star over their heads; only these count toward your final score. If you finish your tune but not many show a star, you might want to try again with the same people.
+
+NPCs give less gold the more you play to them in a row, so it's better to play to several different people instead. This includes Party Time NPCs.
+
+Your Speed influences how long you take to finish a performance. Equip speed-boosting items before accepting a Party Time request, so that you can play more times.
+
+Carrying Performer-boosting equipment with you and equipping it before playing is a good idea. This can help if your base skill isn't enough to please most NPCs.
+
+Palmia is the city with the highest number of Party Time requests.
+
+Most of the money you'll make will come from Party Time! quests. You'll rarely need to play outside of them after the start of the game.
+
+Kill every bard you see once you're powerful enough. They might drop the Stradivarius, the best instrument in the game.
+
+
+Other tips
+
+The effective range of ranged weapons depends on its type. There's a page on the in-game help describing that.
+
+Don't carry lots of cargo around since it ups the chance of being ambushed by highwaymen.
+
+Travelling merchants appear more often on paved roads.
+
+Pet limit: your Charisma/5, minimum 2. If you reach your limit, you'll have to dismiss old pets to get new ones. Letting them die, telling them to wait at town or at your house, or putting them in a ranch or a shop does not free spaces in your "party". Escorted NPCs also count towards your total.
+
+'G'ive all "ore" items (gold bar, raw diamond, sun/earth/mana crystal, etc) to your pets. They will sell them for their base price and spend the gold improving their skill potentials.
+
+If you have the money, buy all ore items you see and give them to your pets.
+
+If you get a delivery quest involving a spellbook, ID it and read all the charges but one.
+
+Sleep in the King's Bed when you're sleepy while in Palmia until you get a Happy Bed.
+
+If you get a wish, wish for "seven league boots". A good second wish is "miromi", for a Secret Experience of Kumiromi, which lets you pick a new perk. Other good wishes are "happy bed" (best bed), "aurora ring" (avoid bad weather statuses/speed loss), and "speed ring".
+
+Shops refresh every 3 days (7 days in 1.22).
+
+If you ask the wizard to identify all your items at once, there is a slight discount.
+
+Drink acid, poison or dye to abort alien babies if you get "pregnant".
+
+Having Superb resistance to Fire and Cold almost always work like blankets, keeping your inventory safe.
+
+Other than food, you can also freely use items on the ground that are not yours.
+
+"Useless" potions such as paralysis and sleeping drugs can be 'T'hrown at enemies. Cursed potions and alcohol induce vomiting.
+
+You can dip useless potions (and vomit) in wells to refill them a little. When they become completely dry, burn them with fire and come back later; they will respawn filled up.
+
+You should have protection against mutation and alien pregnancy if you drink from wells frequently.
+
+If you don't want your pets to drink from wells or to eat food on the ground, drop any useless item on them.
+
+Buy every bottle of water you see, so you can make blessed water.
+
+Always put on equipment that protects you against mutation (like a fairy hat) before going to sleep. It will negate the "monster dream" most of the time.
+
+As a wizard, buy every book of Wizard's Harvest you see. They are the easiest way to get Rods of Wish in the game (as of 1.16).
+
+Prostituting yourself is an easy way to make money if your Charisma is decent. You can make about 100*Charisma gold per attempt. Give a shopkeeper beer (since they usually have the most money), talk to him and ask if he's "interested in a little tail tonight". Having sex does spend a lot of stamina, so you should 'R'est at least twice between every time. Also, if you do this frequently, you should buy every cheap blessed healing potion you see, since you might get sick and drinking one may cure you. You should be aware, however, that an NPC can't give you more gold than he has; check a shopkeeper's inventory to see how much they still have.
+
+Jeweller is the best "crafting" skill, as it lets you make scrolls of Change Material with just a few levels.
+
+Buy every acidproof and fireproof liquids you see and dip your best equipment in them.
+
+Take all bejewelled chests to high-level dungeons before opening them, since the loot quality scales. The higher the dungeon level, the better. Thus even a chest from a level 1 dungeon might give good loot if you open it in the right place.
+
+Never sell treasure maps. It's always better to go and find the treasure yourself.
+
+As long as you can quickly make it all again (such as with Performer), never go into dungeons or other dangerous places carrying lots of money. Spend everything or store it in a kitty bank.
+
+For dungeons, have at least one scroll of Return and Escape on you at all times. They must not be cursed, and you can't use them if overburdened.
+
+Skill books and Training machines can be used daily. If you're in a shelter, they can be repeatedly used.
+
+Having a Rod of Change Creature on you at all times can help immensely if you find a monster that you have no chance to beat or that is extremely annoying.
+
+Rods of fire/ice/lighting bolt can help against groups of enemies or exceptionally strong ones.
+
+Always 's'earch while in towns. If "you sense something" or "you see something shining", keep searching around until you find a small medal. You can trade them for great items at the dwarves' workshop in the east.
+
+If you find a (unblessed) Potion of Descent, drink it right before gaining a level. Levels mean little in terms of power in this game, but the difficulty of enemies does scale. Since you keep your skills, the game will become a bit easier.
+
+Weapons that add elemental damage apply additional effects. Lightning and Nerve damage are great to have on weapons because they inflict paralysis.
+
+
+For even more tips, check elona.wikia.com/wiki/Tips or ask in the thread.
+Reading the rest of the wiki is also recommended if you don't care about spoilers.
