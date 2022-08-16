@@ -1,5 +1,5 @@
 Gmail with html  
-https://mail.google.com/mail/u/0/h/1pq68r75kzvdr/?v%3Dlui/  
+https://mail.google.com/mail/u/0/h/
 
 管理頻道  
 https://www.youtube.com/attribution_link?m=ext-hc-ytm-pe-1&u=%2Fchannel_switcher  
